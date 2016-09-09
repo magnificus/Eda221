@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/assimp"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/code/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/assimp.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/assimp-complete.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-install.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-mkdir.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-download.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-update.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-patch.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-configure.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "assimp" ],
+		"name" : "assimp"
+	}
+}

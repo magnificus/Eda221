@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\code\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\3a67ce63d0f2345fa0f65476716413e6\imgui-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\6c197731a99ef896d0f84ccd78ecb9e8\imgui-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\ba3f7c3a8a788e2765649face2cd8c97\imgui.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\Desktop\Eda221\labar\build\CMakeFiles\imgui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB960486-8E17-3386-B2C5-44E41510247E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

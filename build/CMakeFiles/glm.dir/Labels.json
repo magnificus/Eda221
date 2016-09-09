@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/glm"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/code/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/glm.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/glm-complete.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-install.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-mkdir.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-download.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-update.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-patch.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-configure.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ec639c9944a52654b80dae509a985fd9/glm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "glm" ],
+		"name" : "glm"
+	}
+}

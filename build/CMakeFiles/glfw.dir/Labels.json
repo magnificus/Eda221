@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/glfw"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/code/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/glfw.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/glfw-complete.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-install.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-mkdir.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-download.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-update.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-patch.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-configure.rule"
+		},
+		
+		{
+			"file" : "H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "glfw" ],
+		"name" : "glfw"
+	}
+}

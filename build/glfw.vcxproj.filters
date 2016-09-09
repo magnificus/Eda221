@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\code\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\6c197731a99ef896d0f84ccd78ecb9e8\glfw-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\ba3f7c3a8a788e2765649face2cd8c97\glfw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\Desktop\Eda221\labar\build\CMakeFiles\glfw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB960486-8E17-3386-B2C5-44E41510247E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

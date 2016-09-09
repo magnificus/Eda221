@@ -1,0 +1,12 @@
+H:/Desktop/Eda221/labar/build/CMakeFiles/glm.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/assimp.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/glfw.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/project_dep.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/imgui.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/ALL_BUILD.dir
+H:/Desktop/Eda221/labar/build/CMakeFiles/ZERO_CHECK.dir
+H:/Desktop/Eda221/labar/build/src/external/CMakeFiles/external_libs.dir
+H:/Desktop/Eda221/labar/build/src/core/CMakeFiles/bonobo.dir
+H:/Desktop/Eda221/labar/build/src/core/CMakeFiles/ALL_BUILD.dir
+H:/Desktop/Eda221/labar/build/src/EDA221_Assignment1/CMakeFiles/EDA221_Assignment1.dir
+H:/Desktop/Eda221/labar/build/src/EDA221_Assignment1/CMakeFiles/ALL_BUILD.dir
