@@ -1,4 +1,4 @@
-# Install script for directory: H:/Desktop/Eda221/labar/code
+# Install script for directory: H:/Desktop/Eda221/labbar/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Desktop/Eda221/labar/build/src/external/cmake_install.cmake")
-  include("H:/Desktop/Eda221/labar/build/src/core/cmake_install.cmake")
-  include("H:/Desktop/Eda221/labar/build/src/EDA221_Assignment1/cmake_install.cmake")
+  include("H:/Desktop/Eda221/labbar/build/src/external/cmake_install.cmake")
+  include("H:/Desktop/Eda221/labbar/build/src/core/cmake_install.cmake")
+  include("H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/Desktop/Eda221/labar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "H:/Desktop/Eda221/labbar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

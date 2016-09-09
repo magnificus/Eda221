@@ -1,0 +1,104 @@
+﻿Build started 2016-09-09 11:38:57.
+     1>Project "H:\Desktop\Eda221\labbar\build\imgui.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule H:/Desktop/Eda221/labbar/code/CMakeLists.txt
+         CMake does not need to re-run because H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp is up-to-date.
+         Creating directories for 'imgui'
+         Performing download step (git clone) for 'imgui'
+         Cloning into 'imgui'...
+         Checking out files:  31% (37/119)   
+         Checking out files:  32% (39/119)   
+         Checking out files:  33% (40/119)   
+         Checking out files:  34% (41/119)   
+         Checking out files:  35% (42/119)   
+         Checking out files:  36% (43/119)   
+         Checking out files:  37% (45/119)   
+         Checking out files:  38% (46/119)   
+         Checking out files:  39% (47/119)   
+         Checking out files:  40% (48/119)   
+         Checking out files:  41% (49/119)   
+         Checking out files:  42% (50/119)   
+         Checking out files:  43% (52/119)   
+         Checking out files:  44% (53/119)   
+         Checking out files:  45% (54/119)   
+         Checking out files:  46% (55/119)   
+         Checking out files:  47% (56/119)   
+         Checking out files:  48% (58/119)   
+         Checking out files:  49% (59/119)   
+         Checking out files:  50% (60/119)   
+         Checking out files:  51% (61/119)   
+         Checking out files:  52% (62/119)   
+         Checking out files:  53% (64/119)   
+         Checking out files:  54% (65/119)   
+         Checking out files:  55% (66/119)   
+         Checking out files:  56% (67/119)   
+         Checking out files:  57% (68/119)   
+         Checking out files:  58% (70/119)   
+         Checking out files:  59% (71/119)   
+         Checking out files:  60% (72/119)   
+         Checking out files:  61% (73/119)   
+         Checking out files:  62% (74/119)   
+         Checking out files:  63% (75/119)   
+         Checking out files:  64% (77/119)   
+         Checking out files:  65% (78/119)   
+         Checking out files:  66% (79/119)   
+         Checking out files:  67% (80/119)   
+         Checking out files:  68% (81/119)   
+         Checking out files:  69% (83/119)   
+         Checking out files:  70% (84/119)   
+         Checking out files:  71% (85/119)   
+         Checking out files:  72% (86/119)   
+         Checking out files:  73% (87/119)   
+         Checking out files:  74% (89/119)   
+         Checking out files:  75% (90/119)   
+         Checking out files:  76% (91/119)   
+         Checking out files:  77% (92/119)   
+         Checking out files:  78% (93/119)   
+         Checking out files:  79% (95/119)   
+         Checking out files:  80% (96/119)   
+         Checking out files:  81% (97/119)   
+         Checking out files:  82% (98/119)   
+         Checking out files:  83% (99/119)   
+         Checking out files:  84% (100/119)   
+         Checking out files:  85% (102/119)   
+         Checking out files:  86% (103/119)   
+         Checking out files:  87% (104/119)   
+         Checking out files:  88% (105/119)   
+         Checking out files:  89% (106/119)   
+         Checking out files:  90% (108/119)   
+         Checking out files:  91% (109/119)   
+         Checking out files:  92% (110/119)   
+         Checking out files:  93% (111/119)   
+         Checking out files:  94% (112/119)   
+         Checking out files:  95% (114/119)   
+         Checking out files:  96% (115/119)   
+         Checking out files:  97% (116/119)   
+         Checking out files:  98% (117/119)   
+         Checking out files:  99% (118/119)   
+         Checking out files: 100% (119/119)   
+         Checking out files: 100% (119/119), done.
+         Note: checking out 'v1.46'.
+         
+         You are in 'detached HEAD' state. You can look around, make experimental
+         changes and commit them, and you can discard any commits you make in this
+         state without impacting any branches by performing another checkout.
+         
+         If you want to create a new branch to retain commits you create, you may
+         do so (now or later) by using -b with the checkout command again. Example:
+         
+           git checkout -b <new-branch-name>
+         
+         HEAD is now at 72dde4d... Version 1.46
+         fatal: 'submodule' appears to be a git command, but we were not
+         able to execute it. Maybe git-submodule is broken?
+         CMake Error at H:/Desktop/Eda221/labbar/build/imgui/tmp/imgui-gitclone.cmake:74 (message):
+           Failed to init submodules in:
+           'H:/Desktop/Eda221/labbar/build/imgui/src/imgui'
+         
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "H:\Desktop\Eda221\labbar\build\imgui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:15.40

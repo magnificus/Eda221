@@ -1,0 +1,7 @@
+﻿Build started 2016-09-09 11:38:56.
+     1>Project "H:\Desktop\Eda221\labbar\build\assimp.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule H:/Desktop/Eda221/labbar/code/CMakeLists.txt
+         CMake does not need to re-run because H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp is up-to-date.
+         Creating directories for 'assimp'
+         Performing download step (git clone) for 'assimp'

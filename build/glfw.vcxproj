@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D68ECC4F-E3EF-34D1-9519-B6FE762A0920}</ProjectGUID>
+    <ProjectGUID>{AC56C89B-50A8-391B-AB90-9DF2A900882B}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>glfw</ProjectName>
@@ -54,7 +54,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -64,7 +64,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -74,7 +74,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,10 +83,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\code\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/CMakeLists.txt</Message>
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -94,12 +94,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/code/CMakeLists.txt;H:\Desktop\Eda221\labar\code\CMakeLists.txt;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/code/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labbar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labbar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -107,12 +107,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/code/CMakeLists.txt;H:\Desktop\Eda221\labar\code\CMakeLists.txt;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/code/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labbar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labbar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,28 +120,28 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/code/CMakeLists.txt;H:\Desktop\Eda221\labar\code\CMakeLists.txt;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/code/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;H:\Desktop\Eda221\labbar\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\assimp\tmp\assimp-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;H:\Desktop\Eda221\labbar\build\glm\tmp\glm-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;H:\Desktop\Eda221\labbar\build\imgui\tmp\imgui-cfgcmd.txt.in;H:\Desktop\Eda221\labbar\code\src\core\config.hpp.in;H:\Desktop\Eda221\labbar\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-mkdir.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,24 +149,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -174,24 +174,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/build
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/tmp
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/glfw/src
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/glfw/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -199,22 +199,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-download.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (git clone) for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src
+cd H:\Desktop\Eda221\labbar\build\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -222,18 +222,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-download.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-download.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (git clone) for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src
+cd H:\Desktop\Eda221\labbar\build\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,18 +241,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-download.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-download.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (git clone) for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src
+cd H:\Desktop\Eda221\labbar\build\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,20 +260,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-download.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-download.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\glfw-gitinfo.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-update.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing update step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src\glfw
+cd H:\Desktop\Eda221\labbar\build\glfw\src\glfw
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,16 +281,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-update.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-update.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing update step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src\glfw
+cd H:\Desktop\Eda221\labbar\build\glfw\src\glfw
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,16 +298,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-update.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-update.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing update step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\src\glfw
+cd H:\Desktop\Eda221\labbar\build\glfw\src\glfw
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labar/build/glfw/tmp/glfw-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/Desktop/Eda221/labbar/build/glfw/tmp/glfw-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,18 +315,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-update.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-update.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-patch.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -334,14 +334,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-patch.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-patch.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -349,14 +349,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-patch.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-patch.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -364,22 +364,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-patch.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-patch.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-configure.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labbar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -387,18 +387,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-configure.rule;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-configure.rule;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labbar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -406,18 +406,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-configure.rule;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-configure.rule;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labar/build/glfw/src/glfw
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX:PATH=H:/Desktop/Eda221/labbar/build/glfw -DBUILD_SHARED_LIBS=OFF "-GVisual Studio 14 2015" H:/Desktop/Eda221/labbar/build/glfw/src/glfw
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -425,22 +425,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-configure.rule;H:\Desktop\Eda221\labar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-configure.rule;H:\Desktop\Eda221\labbar\build\glfw\tmp\glfw-cfgcmd.txt;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-build.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -448,18 +448,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-build.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-build.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -467,18 +467,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-build.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-build.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -486,22 +486,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-build.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-build.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\c2c730aea370d25679a51733364d907e\glfw-install.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\b2f39a75802fb2bb87bd37a18b5554af\glfw-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing install step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -509,18 +509,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-install.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-install.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing install step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -528,18 +528,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-install.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-install.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing install step for 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-cd H:\Desktop\Eda221\labar\build\glfw\build
+cd H:\Desktop\Eda221\labbar\build\glfw\build
 if %errorlevel% neq 0 goto :cmEnd
 H:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -547,20 +547,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/c2c730aea370d25679a51733364d907e/glfw-install.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-install.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\6c197731a99ef896d0f84ccd78ecb9e8\glfw-complete.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\809edc876c61ff1f77aff7c5f52c87d2\glfw-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)/glfw-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)/glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -568,16 +568,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/glfw-complete.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/glfw-complete.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)/glfw-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)/glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -585,16 +585,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/glfw-complete.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/glfw-complete.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/CMakeFiles/$(Configuration)/glfw-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/CMakeFiles/$(Configuration)/glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/$(Configuration)/glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -602,13 +602,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/glfw-complete.rule;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/glfw-complete.rule;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-mkdir;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-download;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-update;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-patch;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-configure;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-build;H:\Desktop\Eda221\labbar\build\glfw\src\glfw-stamp\$(Configuration)\glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\build\CMakeFiles\ba3f7c3a8a788e2765649face2cd8c97\glfw.rule">
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\5d154eca058b0eaf938cb3ab5b763d97\glfw.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 :cmEnd
@@ -617,8 +617,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/glfw.rule;H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/glfw.rule;H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -628,8 +628,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/glfw.rule;H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/glfw.rule;H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -639,17 +639,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/glfw.rule;H:\Desktop\Eda221\labar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\CMakeFiles\glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/glfw.rule;H:\Desktop\Eda221\labbar\build\CMakeFiles\$(Configuration)\glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\CMakeFiles\glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\Desktop\Eda221\labar\build\CMakeFiles\glfw" />
+    <None Include="H:\Desktop\Eda221\labbar\build\CMakeFiles\glfw" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/ZERO_CHECK.vcxproj">
-      <Project>AF586ED6-B587-3484-BE20-68E7F646CA0E</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/ZERO_CHECK.vcxproj">
+      <Project>0D914801-3211-32D1-BE59-F50685AE2044</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

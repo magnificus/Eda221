@@ -4,21 +4,21 @@ endif()
 
 set(run 0)
 
-if("H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitinfo.txt" IS_NEWER_THAN "H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt")
+if("H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitinfo.txt" IS_NEWER_THAN "H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt")
   set(run 1)
 endif()
 
 if(NOT run)
-  message(STATUS "Avoiding repeated git clone, stamp file is up to date: 'H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt'")
+  message(STATUS "Avoiding repeated git clone, stamp file is up to date: 'H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt'")
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E remove_directory "H:/Desktop/Eda221/labar/build/glfw/src/glfw"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "H:/Desktop/Eda221/labbar/build/glfw/src/glfw"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'H:/Desktop/Eda221/labar/build/glfw/src/glfw'")
+  message(FATAL_ERROR "Failed to remove directory: 'H:/Desktop/Eda221/labbar/build/glfw/src/glfw'")
 endif()
 
 set(git_options)
@@ -43,7 +43,7 @@ set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/glfw/glfw.git" "glfw"
-    WORKING_DIRECTORY "H:/Desktop/Eda221/labar/build/glfw/src"
+    WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/glfw/src"
     RESULT_VARIABLE error_code
     )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -58,7 +58,7 @@ endif()
 
 execute_process(
   COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} checkout 3.2.1
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labar/build/glfw/src/glfw"
+  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/glfw/src/glfw"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -67,32 +67,32 @@ endif()
 
 execute_process(
   COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} submodule init 
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labar/build/glfw/src/glfw"
+  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/glfw/src/glfw"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to init submodules in: 'H:/Desktop/Eda221/labar/build/glfw/src/glfw'")
+  message(FATAL_ERROR "Failed to init submodules in: 'H:/Desktop/Eda221/labbar/build/glfw/src/glfw'")
 endif()
 
 execute_process(
   COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} submodule update --recursive --init 
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labar/build/glfw/src/glfw"
+  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/glfw/src/glfw"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'H:/Desktop/Eda221/labar/build/glfw/src/glfw'")
+  message(FATAL_ERROR "Failed to update submodules in: 'H:/Desktop/Eda221/labbar/build/glfw/src/glfw'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
   COMMAND ${CMAKE_COMMAND} -E copy
-    "H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitinfo.txt"
-    "H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt"
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labar/build/glfw/src/glfw"
+    "H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitinfo.txt"
+    "H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt"
+  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/glfw/src/glfw"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'H:/Desktop/Eda221/labar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'H:/Desktop/Eda221/labbar/build/glfw/src/glfw-stamp/glfw-gitclone-lastrun.txt'")
 endif()
 

@@ -1,1 +1,1 @@
-cmd='C:/Program Files/CMake/bin/cmake.exe;-GVisual Studio 14 2015;H:/Desktop/Eda221/labar/build/glm/src/glm'
+cmd='C:/Program Files/CMake/bin/cmake.exe;-GVisual Studio 14 2015;H:/Desktop/Eda221/labbar/build/glm/src/glm'

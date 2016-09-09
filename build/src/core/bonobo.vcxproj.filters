@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Bonobo.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Bonobo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\InputHandler.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\InputHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Log.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\LogView.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\LogView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Misc.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\opengl.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\opengl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Types.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Types.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\various.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\various.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Window.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{13FFA3AB-C6EC-3731-84D2-CCF7BA1100D0}</UniqueIdentifier>
+      <UniqueIdentifier>{067AA2C3-75E7-3C50-AF59-247066879456}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

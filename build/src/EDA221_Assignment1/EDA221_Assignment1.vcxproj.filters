@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\main.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\main.cpp">
       <Filter>EDA221\Assignment1</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\SolarSystem.cpp">
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\SolarSystem.cpp">
       <Filter>EDA221\Assignment1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\SolarSystem.h">
+    <ClInclude Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\SolarSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="EDA221\Assignment1">
+      <UniqueIdentifier>{5A3290EC-13AF-3F05-A61B-09A82877E28F}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{E1C71AED-E419-3A12-981E-45610F18791A}</UniqueIdentifier>
+      <UniqueIdentifier>{082B4AB8-63FA-3BB0-B00B-3666180790C3}</UniqueIdentifier>
     </Filter>
     <Filter Include="EDA221">
-      <UniqueIdentifier>{7389FCB9-08E8-3ADD-9BF4-95991491B115}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="EDA221\Assignment1">
-      <UniqueIdentifier>{8A567D37-1E1A-3019-9399-C3233C2427E5}</UniqueIdentifier>
+      <UniqueIdentifier>{1D6BBCFA-8488-31A0-82BE-7E2B041E00A5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

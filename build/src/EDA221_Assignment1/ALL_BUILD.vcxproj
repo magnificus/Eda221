@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{B338DDAA-AC87-381C-AA7F-467282E688C0}</ProjectGUID>
+    <ProjectGUID>{368B8B8F-BEA2-3201-B65F-1214434395B8}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -54,7 +54,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -64,7 +64,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -74,7 +74,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,10 +83,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -94,12 +94,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -107,12 +107,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,19 +120,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/ZERO_CHECK.vcxproj">
-      <Project>AF586ED6-B587-3484-BE20-68E7F646CA0E</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/ZERO_CHECK.vcxproj">
+      <Project>0D914801-3211-32D1-BE59-F50685AE2044</Project>
     </ProjectReference>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/src/EDA221_Assignment1/EDA221_Assignment1.vcxproj">
-      <Project>EE58C718-0F84-3D6E-8A53-CCF9037D9358</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/EDA221_Assignment1.vcxproj">
+      <Project>470D5271-2AA7-3C35-9F3C-C370A5C35086</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

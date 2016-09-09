@@ -1,4 +1,4 @@
-# Install script for directory: H:/Desktop/Eda221/labar/code/src/core
+# Install script for directory: H:/Desktop/Eda221/labbar/code/src/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

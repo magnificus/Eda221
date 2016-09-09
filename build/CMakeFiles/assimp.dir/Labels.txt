@@ -1,14 +1,14 @@
 # Target labels
  assimp
 # Source files and their labels
-H:/Desktop/Eda221/labar/build/CMakeFiles/assimp
-H:/Desktop/Eda221/labar/code/CMakeLists.txt
-H:/Desktop/Eda221/labar/build/CMakeFiles/ba3f7c3a8a788e2765649face2cd8c97/assimp.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/6c197731a99ef896d0f84ccd78ecb9e8/assimp-complete.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-install.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-mkdir.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-download.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-update.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-patch.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-configure.rule
-H:/Desktop/Eda221/labar/build/CMakeFiles/9d437e122ce3fca410ea4f557a37fe6b/assimp-build.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/assimp
+H:/Desktop/Eda221/labbar/code/CMakeLists.txt
+H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/assimp.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/assimp-complete.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-install.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-mkdir.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-download.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-update.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-patch.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-configure.rule
+H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-build.rule

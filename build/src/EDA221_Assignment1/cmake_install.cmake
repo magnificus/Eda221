@@ -1,4 +1,4 @@
-# Install script for directory: H:/Desktop/Eda221/labar/code/src/EDA221_Assignment1
+# Install script for directory: H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

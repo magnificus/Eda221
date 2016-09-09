@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{71028917-BE91-3D20-8B41-2D1590ED14EA}</ProjectGUID>
+    <ProjectGUID>{EC6A08FC-C748-3E00-8A75-26E2EEB400DF}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>bonobo</ProjectName>
@@ -48,22 +48,22 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\src\core\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\src\core\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bonobo.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bonobo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\src\core\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\src\core\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bonobo.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bonobo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\src\core\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\src\core\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bonobo.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bonobo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -80,10 +80,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -112,10 +112,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -144,10 +144,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labar\build\glfw\include;H:\Desktop\Eda221\labar\build\imgui\include;H:\Desktop\Eda221\labar\build\glm\src\glm;H:\Desktop\Eda221\labar\code\src;H:\Desktop\Eda221\labar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\code\src\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,10 +159,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt</Message>
+    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -170,12 +170,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,12 +183,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labar/code -BH:/Desktop/Eda221/labar/build --check-stamp-file H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,31 +196,31 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labar\build\src\core\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/code/src/core/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\src\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Bonobo.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\InputHandler.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Log.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\LogView.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Misc.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\opengl.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Types.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\various.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labar\code\src\core\Window.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Bonobo.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\InputHandler.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Log.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\LogView.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Misc.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\opengl.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Types.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\various.cpp"  />
+    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Window.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/ZERO_CHECK.vcxproj">
-      <Project>AF586ED6-B587-3484-BE20-68E7F646CA0E</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/ZERO_CHECK.vcxproj">
+      <Project>0D914801-3211-32D1-BE59-F50685AE2044</Project>
     </ProjectReference>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/src/external/external_libs.vcxproj">
-      <Project>18612324-9B4D-3854-B832-17059EBCDB68</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/src/external/external_libs.vcxproj">
+      <Project>E743C7CF-00E1-3536-9E50-41753ABEB9F0</Project>
     </ProjectReference>
-    <ProjectReference Include="H:/Desktop/Eda221/labar/build/project_dep.vcxproj">
-      <Project>F6873D8F-1F6D-3C60-8AD5-5F5659E2889C</Project>
+    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/project_dep.vcxproj">
+      <Project>3F241997-B66D-353A-88E4-636D85671956</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
