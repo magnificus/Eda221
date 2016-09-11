@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{470D5271-2AA7-3C35-9F3C-C370A5C35086}</ProjectGUID>
+    <ProjectGUID>{718A2714-5B40-3A01-B016-518A1D5DCFD0}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
-    <Platform>Win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>EDA221_Assignment1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
@@ -48,28 +48,28 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EDA221_Assignment1.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EDA221_Assignment1</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">EDA221_Assignment1.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">EDA221_Assignment1</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">EDA221_Assignment1.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">EDA221_Assignment1</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EDA221_Assignment1.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EDA221_Assignment1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EDA221_Assignment1.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EDA221_Assignment1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EDA221_Assignment1.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EDA221_Assignment1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
     </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -86,10 +86,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
     <PostBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -108,7 +108,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -118,13 +118,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;..\..\imgui\lib\imgui.lib;..\..\assimp\lib\assimp-vc140-mt.lib;..\core\Debug\bonobo.lib;..\..\imgui\lib\imgui.lib;..\external\Debug\external_libs.lib;..\..\glfw\lib\glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Debug/EDA221_Assignment1.lib</ImportLibrary>
-      <ProgramDataBaseFile>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Debug/EDA221_Assignment1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Debug/EDA221_Assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Debug/EDA221_Assignment1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -132,9 +132,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -150,10 +150,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,7 +163,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,7 +172,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -182,13 +182,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;..\..\imgui\lib\imgui.lib;..\..\assimp\lib\assimp-vc140-mt.lib;..\core\Release\bonobo.lib;..\..\imgui\lib\imgui.lib;..\external\Release\external_libs.lib;..\..\glfw\lib\glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Release/EDA221_Assignment1.lib</ImportLibrary>
-      <ProgramDataBaseFile>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Release/EDA221_Assignment1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Release/EDA221_Assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Release/EDA221_Assignment1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -196,9 +196,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -214,10 +214,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Desktop\Eda221\labbar\build\glfw\include;H:\Desktop\Eda221\labbar\code\src\external;H:\Desktop\Eda221\labbar\code\src;H:\Desktop\Eda221\labbar\build;H:\Desktop\Eda221\labbar\build\imgui\include;H:\Desktop\Eda221\labbar\build\glm\src\glm;H:\Desktop\Eda221\labbar\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\datorgrafik\Eda221\build\glfw\include;D:\datorgrafik\Eda221\code\src\external;D:\datorgrafik\Eda221\code\src;D:\datorgrafik\Eda221\build;D:\datorgrafik\Eda221\build\imgui\include;D:\datorgrafik\Eda221\build\glm\src\glm;D:\datorgrafik\Eda221\build\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -227,7 +227,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,7 +236,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy H:/Desktop/Eda221/labbar/build/assimp/bin/assimp-vc140-mt.dll H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/datorgrafik/Eda221/build/assimp/bin/assimp-vc140-mt.dll D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,13 +246,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;..\..\imgui\lib\imgui.lib;..\..\assimp\lib\assimp-vc140-mt.lib;..\core\RelWithDebInfo\bonobo.lib;..\..\imgui\lib\imgui.lib;..\external\RelWithDebInfo\external_libs.lib;..\..\glfw\lib\glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/RelWithDebInfo/EDA221_Assignment1.lib</ImportLibrary>
-      <ProgramDataBaseFile>H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/RelWithDebInfo/EDA221_Assignment1.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/RelWithDebInfo/EDA221_Assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/RelWithDebInfo/EDA221_Assignment1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -261,10 +261,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+    <CustomBuild Include="D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/datorgrafik/Eda221/code -BD:/datorgrafik/Eda221/build --check-stamp-file D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +272,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/datorgrafik/Eda221/code -BD:/datorgrafik/Eda221/build --check-stamp-file D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +285,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HH:/Desktop/Eda221/labbar/code -BH:/Desktop/Eda221/labbar/build --check-stamp-file H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/datorgrafik/Eda221/code -BD:/datorgrafik/Eda221/build --check-stamp-file D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,25 +298,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\SolarSystem.h" />
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\main.cpp"  />
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\SolarSystem.cpp"  />
+    <ClInclude Include="D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.h" />
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\main.cpp"  />
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/ZERO_CHECK.vcxproj">
-      <Project>0D914801-3211-32D1-BE59-F50685AE2044</Project>
+    <ProjectReference Include="D:/datorgrafik/Eda221/build/ZERO_CHECK.vcxproj">
+      <Project>A8BA2D14-62DE-37E4-8FA4-AE00282C46FF</Project>
     </ProjectReference>
-    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/src/core/bonobo.vcxproj">
-      <Project>EC6A08FC-C748-3E00-8A75-26E2EEB400DF</Project>
+    <ProjectReference Include="D:/datorgrafik/Eda221/build/src/core/bonobo.vcxproj">
+      <Project>084FB213-C5F4-3A27-BD31-67ADACC7BA68</Project>
     </ProjectReference>
-    <ProjectReference Include="H:/Desktop/Eda221/labbar/build/src/external/external_libs.vcxproj">
-      <Project>E743C7CF-00E1-3536-9E50-41753ABEB9F0</Project>
+    <ProjectReference Include="D:/datorgrafik/Eda221/build/src/external/external_libs.vcxproj">
+      <Project>18F15405-D7F9-3D13-95FF-23939F200CD0</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

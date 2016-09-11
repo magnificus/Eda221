@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+D:/datorgrafik/Eda221/build/assimp/src/assimp/test/CMakeLists.txt
+D:/datorgrafik/Eda221/build/assimp/src/assimp/cmake-modules/AddGTest.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+D:/datorgrafik/Eda221/build/assimp/build/test/gtest/tmp/gtest-cfgcmd.txt.in

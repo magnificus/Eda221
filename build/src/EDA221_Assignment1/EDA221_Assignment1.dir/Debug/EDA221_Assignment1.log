@@ -1,139 +1,645 @@
-﻿Build started 2016-09-09 11:34:12.
-     1>Project "H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\EDA221_Assignment1.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Building Custom Rule H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1/CMakeLists.txt
-         CMake does not need to re-run because H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp is up-to-date.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IH:\Desktop\Eda221\labbar\build\glfw\include /IH:\Desktop\Eda221\labbar\code\src\external /IH:\Desktop\Eda221\labbar\code\src /IH:\Desktop\Eda221\labbar\build /IH:\Desktop\Eda221\labbar\build\imgui\include /IH:\Desktop\Eda221\labbar\build\glm\src\glm /IH:\Desktop\Eda221\labbar\build\assimp\include /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"EDA221_Assignment1.dir\Debug\\" /Fd"EDA221_Assignment1.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\main.cpp H:\Desktop\Eda221\labbar\code\src\EDA221_Assignment1\SolarSystem.cpp
-         main.cpp
-         SolarSystem.cpp
-     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt.h(176): warning C4668: 'WINAPI_PARTITION_SYSTEM' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10997): warning C4820: '_CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE': '4' bytes padding added after data member '_CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE::Name'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11238): warning C4820: '_SECURITY_QUALITY_OF_SERVICE': '2' bytes padding added after data member '_SECURITY_QUALITY_OF_SERVICE::EffectiveOnly'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11249): warning C4820: '_SE_IMPERSONATION_STATE': '2' bytes padding added after data member '_SE_IMPERSONATION_STATE::EffectiveOnly'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11451): warning C4820: '_QUOTA_LIMITS': '4' bytes padding added after data member '_QUOTA_LIMITS::PagefileLimit'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11474): warning C4820: '_QUOTA_LIMITS_EX': '4' bytes padding added after data member '_QUOTA_LIMITS_EX::PagefileLimit'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11541): warning C4820: '_PROCESS_MITIGATION_DEP_POLICY': '3' bytes padding added after data member '_PROCESS_MITIGATION_DEP_POLICY::Permanent'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11617): warning C4820: '_JOBOBJECT_BASIC_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_BASIC_LIMIT_INFORMATION::SchedulingClass'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11688): warning C4820: '_JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION::LimitFlags'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12334): warning C4820: '_FILE_NOTIFY_INFORMATION': '2' bytes padding added after data member '_FILE_NOTIFY_INFORMATION::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12409): warning C4820: '_REPARSE_GUID_DATA_BUFFER': '3' bytes padding added after data member '_REPARSE_GUID_DATA_BUFFER::GenericReparseBuffer'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12621): warning C4820: '_SCRUB_DATA_OUTPUT': '4' bytes padding added after data member '_SCRUB_DATA_OUTPUT::Status'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14075): warning C4820: '_POWER_SESSION_RIT_STATE': '3' bytes padding added after data member '_POWER_SESSION_RIT_STATE::Active'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14085): warning C4820: '_POWER_SESSION_WINLOGON': '2' bytes padding added after data member '_POWER_SESSION_WINLOGON::Locked'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14125): warning C4820: '_POWER_MONITOR_INVOCATION': '2' bytes padding added after data member '_POWER_MONITOR_INVOCATION::Console'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14134): warning C4820: '_RESUME_PERFORMANCE': '4' bytes padding added after data member '_RESUME_PERFORMANCE::PostTimeMs'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14179): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member '<unnamed-tag>::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14312): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::DecreaseTime'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14333): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::TimerInterval'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14378): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::InvalidBucketIndex'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14386): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::ResetCount'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14401): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::Count'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14534): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::Speed'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14545): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::ThermalConstraint'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14553): warning C4820: '<unnamed-tag>': '7' bytes padding added after data member '<unnamed-tag>::Mode'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14650): warning C4820: '_SYSTEM_POWER_POLICY': '3' bytes padding added after data member '_SYSTEM_POWER_POLICY::VideoDimDisplay'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16169): warning C4820: '_IMAGE_IMPORT_BY_NAME': '1' bytes padding added after data member '_IMAGE_IMPORT_BY_NAME::Name'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16398): warning C4820: '_IMAGE_RESOURCE_DIRECTORY_STRING': '1' bytes padding added after data member '_IMAGE_RESOURCE_DIRECTORY_STRING::NameString'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16656): warning C4820: '_IMAGE_DEBUG_MISC': '3' bytes padding added after data member '_IMAGE_DEBUG_MISC::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17842): warning C4820: '_MESSAGE_RESOURCE_ENTRY': '1' bytes padding added after data member '_MESSAGE_RESOURCE_ENTRY::Text'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18349): warning C4820: '_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION': '4' bytes padding added after data member '_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION::ulFileCount'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18858): warning C4820: '_TAPE_ERASE': '3' bytes padding added after data member '_TAPE_ERASE::Immediate'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18874): warning C4820: '_TAPE_PREPARE': '3' bytes padding added after data member '_TAPE_PREPARE::Immediate'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18889): warning C4820: '_TAPE_WRITE_MARKS': '3' bytes padding added after data member '_TAPE_WRITE_MARKS::Immediate'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18925): warning C4820: '_TAPE_SET_POSITION': '7' bytes padding added after data member '_TAPE_SET_POSITION::Immediate'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19049): warning C4820: '_TAPE_GET_MEDIA_PARAMETERS': '7' bytes padding added after data member '_TAPE_GET_MEDIA_PARAMETERS::WriteProtected'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h(138): warning C4820: '_TRANSACTION_NOTIFICATION': '4' bytes padding added after data member '_TRANSACTION_NOTIFICATION::ArgumentLength'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19314): warning C4820: '_TRANSACTIONMANAGER_LOGPATH_INFORMATION': '2' bytes padding added after data member '_TRANSACTIONMANAGER_LOGPATH_INFORMATION::LogPath'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19336): warning C4820: '_TRANSACTION_PROPERTIES_INFORMATION': '6' bytes padding added after data member '_TRANSACTION_PROPERTIES_INFORMATION::Description'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19363): warning C4820: '_RESOURCEMANAGER_BASIC_INFORMATION': '2' bytes padding added after data member '_RESOURCEMANAGER_BASIC_INFORMATION::Description'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(117): warning C4820: '_WIN32_FIND_DATAA': '2' bytes padding added after data member '_WIN32_FIND_DATAA::cAlternateFileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(300): warning C4820: '_CREATE_PROCESS_DEBUG_INFO': '2' bytes padding added after data member '_CREATE_PROCESS_DEBUG_INFO::fUnicode'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(317): warning C4820: '_LOAD_DLL_DEBUG_INFO': '2' bytes padding added after data member '_LOAD_DLL_DEBUG_INFO::fUnicode'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(1170): warning C4668: '_WIN32_WINNT_WINTHRESHOLD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(422): warning C4820: '_COMMPROP': '2' bytes padding added after data member '_COMMPROP::wcProvChar'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(508): warning C4820: '_COMMCONFIG': '2' bytes padding added after data member '_COMMCONFIG::wcProviderData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2906): warning C4820: '_WIN32_STREAM_ID': '2' bytes padding added after data member '_WIN32_STREAM_ID::cStreamName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7294): warning C4820: 'tagHW_PROFILE_INFOA': '1' bytes padding added after data member 'tagHW_PROFILE_INFOA::szHwProfileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7299): warning C4820: 'tagHW_PROFILE_INFOW': '2' bytes padding added after data member 'tagHW_PROFILE_INFOW::szHwProfileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h(67): warning C4820: '_TIME_DYNAMIC_ZONE_INFORMATION': '3' bytes padding added after data member '_TIME_DYNAMIC_ZONE_INFORMATION::DynamicDaylightTimeDisabled'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8199): warning C4820: '_FILE_BASIC_INFO': '4' bytes padding added after data member '_FILE_BASIC_INFO::FileAttributes'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8207): warning C4820: '_FILE_STANDARD_INFO': '2' bytes padding added after data member '_FILE_STANDARD_INFO::Directory'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8212): warning C4820: '_FILE_NAME_INFO': '2' bytes padding added after data member '_FILE_NAME_INFO::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8216): warning C4820: '_FILE_RENAME_INFO': '3' bytes padding added after data member '_FILE_RENAME_INFO::ReplaceIfExists'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8219): warning C4820: '_FILE_RENAME_INFO': '2' bytes padding added after data member '_FILE_RENAME_INFO::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8235): warning C4820: '_FILE_STREAM_INFO': '6' bytes padding added after data member '_FILE_STREAM_INFO::StreamName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8268): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '1' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::ShortNameLength'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8269): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '2' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::ShortName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8271): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '6' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8286): warning C4820: '_FILE_FULL_DIR_INFO': '2' bytes padding added after data member '_FILE_FULL_DIR_INFO::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8362): warning C4820: '_FILE_ID_EXTD_DIR_INFO': '6' bytes padding added after data member '_FILE_ID_EXTD_DIR_INFO::FileName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8618): warning C4668: 'NTDDI_WIN7SP1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(923): warning C4820: 'tagBITMAPCOREINFO': '1' bytes padding added after data member 'tagBITMAPCOREINFO::bmciColors'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1165): warning C4820: 'tagTEXTMETRICA': '3' bytes padding added after data member 'tagTEXTMETRICA::tmCharSet'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1188): warning C4820: 'tagTEXTMETRICW': '3' bytes padding added after data member 'tagTEXTMETRICW::tmCharSet'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1248): warning C4820: 'tagNEWTEXTMETRICA': '3' bytes padding added after data member 'tagNEWTEXTMETRICA::tmCharSet'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1275): warning C4820: 'tagNEWTEXTMETRICW': '3' bytes padding added after data member 'tagNEWTEXTMETRICW::tmCharSet'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1336): warning C4820: 'tagPELARRAY': '3' bytes padding added after data member 'tagPELARRAY::paRGBs'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1810): warning C4820: 'tagEXTLOGFONTA': '2' bytes padding added after data member 'tagEXTLOGFONTA::elfPanose'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1822): warning C4820: 'tagEXTLOGFONTW': '2' bytes padding added after data member 'tagEXTLOGFONTW::elfPanose'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3050): warning C4820: 'DISPLAYCONFIG_TARGET_PREFERRED_MODE': '4' bytes padding added after data member 'DISPLAYCONFIG_TARGET_PREFERRED_MODE::height'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3132): warning C4820: '_RGNDATA': '3' bytes padding added after data member '_RGNDATA::Buffer'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3174): warning C4820: '_OUTLINETEXTMETRICA': '1' bytes padding added after data member '_OUTLINETEXTMETRICA::otmPanoseNumber'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3208): warning C4820: '_OUTLINETEXTMETRICW': '1' bytes padding added after data member '_OUTLINETEXTMETRICW::otmPanoseNumber'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5428): warning C4820: 'tagEMRGDICOMMENT': '3' bytes padding added after data member 'tagEMRGDICOMMENT::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5587): warning C4820: 'tagEMRPOLYDRAW': '3' bytes padding added after data member 'tagEMRPOLYDRAW::abTypes'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5596): warning C4820: 'tagEMRPOLYDRAW16': '3' bytes padding added after data member 'tagEMRPOLYDRAW16::abTypes'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5626): warning C4820: 'tagEMRINVERTRGN': '3' bytes padding added after data member 'tagEMRINVERTRGN::RgnData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5636): warning C4820: 'tagEMRFILLRGN': '3' bytes padding added after data member 'tagEMRFILLRGN::RgnData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5646): warning C4820: 'tagEMRFRAMERGN': '3' bytes padding added after data member 'tagEMRFRAMERGN::RgnData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5654): warning C4820: 'tagEMREXTSELECTCLIPRGN': '3' bytes padding added after data member 'tagEMREXTSELECTCLIPRGN::RgnData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5901): warning C4820: 'tagEMRGLSRECORD': '3' bytes padding added after data member 'tagEMRGLSRECORD::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5909): warning C4820: 'tagEMRGLSBOUNDEDRECORD': '3' bytes padding added after data member 'tagEMRGLSBOUNDEDRECORD::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5942): warning C4820: 'tagEMREXTESCAPE': '3' bytes padding added after data member 'tagEMREXTESCAPE::EscData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5952): warning C4820: 'tagEMRNAMEDESCAPE': '3' bytes padding added after data member 'tagEMRNAMEDESCAPE::EscData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5963): warning C4820: 'tagEMRSETICMPROFILE': '3' bytes padding added after data member 'tagEMRSETICMPROFILE::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5977): warning C4820: 'tagEMRCREATECOLORSPACEW': '3' bytes padding added after data member 'tagEMRCREATECOLORSPACEW::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5989): warning C4820: 'tagCOLORMATCHTOTARGET': '3' bytes padding added after data member 'tagCOLORMATCHTOTARGET::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(2261): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member '<unnamed-tag>::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3064): warning C4820: 'tagACCEL': '1' bytes padding added after data member 'tagACCEL::fVirt'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(6053): warning C4820: 'tagPOINTER_INFO': '4' bytes padding added after data member 'tagPOINTER_INFO::ButtonChangeType'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(6321): warning C4820: 'tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION': '2' bytes padding added after data member 'tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION::score'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10229): warning C4820: 'tagCURSORSHAPE': '2' bytes padding added after data member 'tagCURSORSHAPE::BitsPixel'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10352): warning C4820: '_ICONINFOEXA': '2' bytes padding added after data member '_ICONINFOEXA::szResName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10363): warning C4820: '_ICONINFOEXW': '2' bytes padding added after data member '_ICONINFOEXW::szResName'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11617): warning C4820: 'tagMULTIKEYHELPA': '2' bytes padding added after data member 'tagMULTIKEYHELPA::szKeyphrase'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11645): warning C4820: 'tagHELPWININFOA': '2' bytes padding added after data member 'tagHELPWININFOA::rgchMember'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14157): warning C4820: 'tagRAWMOUSE': '2' bytes padding added after data member 'tagRAWMOUSE::usFlags'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14288): warning C4820: 'tagRAWHID': '3' bytes padding added after data member 'tagRAWHID::bRawData'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14557): warning C4820: 'tagPOINTER_DEVICE_INFO': '2' bytes padding added after data member 'tagPOINTER_DEVICE_INFO::productString'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14771): warning C4820: 'tagGESTUREINFO': '4' bytes padding added after data member 'tagGESTUREINFO::dwSequenceID'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14773): warning C4820: 'tagGESTUREINFO': '4' bytes padding added after data member 'tagGESTUREINFO::cbExtraArgs'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(961): warning C4820: '_cpinfo': '2' bytes padding added after data member '_cpinfo::LeadByte'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h(145): warning C4820: '_INPUT_RECORD': '2' bytes padding added after data member '_INPUT_RECORD::EventType'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(667): warning C4820: '_NETINFOSTRUCT': '2' bytes padding added after data member '_NETINFOSTRUCT::wNetType'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(467): warning C4820: '_SERVICE_CUSTOM_SYSTEM_STATE_CHANGE_DATA_ITEM::<unnamed-tag>': '3' bytes padding added after data member '_SERVICE_CUSTOM_SYSTEM_STATE_CHANGE_DATA_ITEM::<unnamed-tag>::Data'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(657): warning C4820: '_SERVICE_PREFERRED_NODE_INFO': '1' bytes padding added after data member '_SERVICE_PREFERRED_NODE_INFO::fDelete'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h(43): warning C4820: '_MODEMDEVCAPS': '3' bytes padding added after data member '_MODEMDEVCAPS::abVariablePortion'
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h(64): warning C4820: '_MODEMSETTINGS': '3' bytes padding added after data member '_MODEMSETTINGS::abVariablePortion'
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail\setup.hpp(458): warning C4668: 'GLM_COMPILER_VC2005' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec2.hpp(66): warning C4201: nonstandard extension used: nameless struct/union
-         h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec2.hpp(229): note: see reference to class template instantiation 'glm::tvec2<T,P>' being compiled
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec2.hpp(67): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec2.hpp(68): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec3.hpp(66): warning C4201: nonstandard extension used: nameless struct/union
-         h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec3.hpp(251): note: see reference to class template instantiation 'glm::tvec3<T,P>' being compiled
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec3.hpp(67): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec3.hpp(68): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec4.hpp(120): warning C4201: nonstandard extension used: nameless struct/union
-         h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec4.hpp(350): note: see reference to class template instantiation 'glm::tvec4<T,P>' being compiled
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec4.hpp(121): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail/type_vec4.hpp(122): warning C4201: nonstandard extension used: nameless struct/union
-     1>h:\desktop\eda221\labbar\build\glm\src\glm\glm\detail\func_integer.inl(211): warning C4365: '=': conversion from 'int' to 'glm::uint', signed/unsigned mismatch
-     1>h:\desktop\eda221\labbar\code\src\core\InputHandler.h(7): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-         Generating Code...
-     1>Done Building Project "H:\Desktop\Eda221\labbar\build\src\EDA221_Assignment1\EDA221_Assignment1.vcxproj" (Build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:01.60
+﻿  Building Custom Rule D:/datorgrafik/Eda221/code/src/EDA221_Assignment1/CMakeLists.txt
+  CMake does not need to re-run because D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\CMakeFiles\generate.stamp is up-to-date.
+  main.cpp
+  SolarSystem.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h(176): warning C4668: 'WINAPI_PARTITION_SYSTEM' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(8995): warning C4820: '_EXCEPTION_RECORD': '4' bytes padding added after data member '_EXCEPTION_RECORD::NumberParameters'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9263): warning C4820: '_SID_AND_ATTRIBUTES': '4' bytes padding added after data member '_SID_AND_ATTRIBUTES::Attributes'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(9273): warning C4820: '_SID_AND_ATTRIBUTES_HASH': '4' bytes padding added after data member '_SID_AND_ATTRIBUTES_HASH::SidCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10335): warning C4820: '_SECURITY_DESCRIPTOR': '4' bytes padding added after data member '_SECURITY_DESCRIPTOR::Control'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10401): warning C4820: '_OBJECT_TYPE_LIST': '4' bytes padding added after data member '_OBJECT_TYPE_LIST::Sbz'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10583): warning C4820: '_SE_ACCESS_REQUEST': '4' bytes padding added after data member '_SE_ACCESS_REQUEST::Size'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10589): warning C4820: '_SE_ACCESS_REQUEST': '4' bytes padding added after data member '_SE_ACCESS_REQUEST::ObjectTypeListCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10818): warning C4820: '_TOKEN_GROUPS': '4' bytes padding added after data member '_TOKEN_GROUPS::GroupCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(10897): warning C4820: '_TOKEN_ACCESS_INFORMATION': '4' bytes padding added after data member '_TOKEN_ACCESS_INFORMATION::AppContainerNumber'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11009): warning C4820: '_CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE': '4' bytes padding added after data member '_CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE::ValueLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11122): warning C4820: '_CLAIM_SECURITY_ATTRIBUTE_V1': '4' bytes padding added after data member '_CLAIM_SECURITY_ATTRIBUTE_V1::ValueCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11238): warning C4820: '_SECURITY_QUALITY_OF_SERVICE': '2' bytes padding added after data member '_SECURITY_QUALITY_OF_SERVICE::EffectiveOnly'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11249): warning C4820: '_SE_IMPERSONATION_STATE': '2' bytes padding added after data member '_SE_IMPERSONATION_STATE::EffectiveOnly'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11441): warning C4820: '_UMS_CREATE_THREAD_ATTRIBUTES': '4' bytes padding added after data member '_UMS_CREATE_THREAD_ATTRIBUTES::UmsVersion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11541): warning C4820: '_PROCESS_MITIGATION_DEP_POLICY': '3' bytes padding added after data member '_PROCESS_MITIGATION_DEP_POLICY::Permanent'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11611): warning C4820: '_JOBOBJECT_BASIC_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_BASIC_LIMIT_INFORMATION::LimitFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11614): warning C4820: '_JOBOBJECT_BASIC_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_BASIC_LIMIT_INFORMATION::ActiveProcessLimit'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11644): warning C4820: '_JOBOBJECT_SECURITY_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_SECURITY_LIMIT_INFORMATION::SecurityLimitFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11688): warning C4820: '_JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION': '4' bytes padding added after data member '_JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION::LimitFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(11935): warning C4820: '_SYSTEM_LOGICAL_PROCESSOR_INFORMATION': '4' bytes padding added after data member '_SYSTEM_LOGICAL_PROCESSOR_INFORMATION::Relationship'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12112): warning C4820: '_MEMORY_BASIC_INFORMATION': '4' bytes padding added after data member '_MEMORY_BASIC_INFORMATION::AllocationProtect'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12116): warning C4820: '_MEMORY_BASIC_INFORMATION': '4' bytes padding added after data member '_MEMORY_BASIC_INFORMATION::Type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12334): warning C4820: '_FILE_NOTIFY_INFORMATION': '2' bytes padding added after data member '_FILE_NOTIFY_INFORMATION::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12409): warning C4820: '_REPARSE_GUID_DATA_BUFFER': '3' bytes padding added after data member '_REPARSE_GUID_DATA_BUFFER::GenericReparseBuffer'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(12621): warning C4820: '_SCRUB_DATA_OUTPUT': '4' bytes padding added after data member '_SCRUB_DATA_OUTPUT::Status'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14075): warning C4820: '_POWER_SESSION_RIT_STATE': '3' bytes padding added after data member '_POWER_SESSION_RIT_STATE::Active'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14085): warning C4820: '_POWER_SESSION_WINLOGON': '2' bytes padding added after data member '_POWER_SESSION_WINLOGON::Locked'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14125): warning C4820: '_POWER_MONITOR_INVOCATION': '2' bytes padding added after data member '_POWER_MONITOR_INVOCATION::Console'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14134): warning C4820: '_RESUME_PERFORMANCE': '4' bytes padding added after data member '_RESUME_PERFORMANCE::PostTimeMs'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14179): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member '<unnamed-tag>::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14312): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::DecreaseTime'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14333): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::TimerInterval'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14357): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::TimerInterval'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14378): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::InvalidBucketIndex'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14386): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::ResetCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14401): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::Count'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14534): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::Speed'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14545): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::ThermalConstraint'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14553): warning C4820: '<unnamed-tag>': '7' bytes padding added after data member '<unnamed-tag>::Mode'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(14650): warning C4820: '_SYSTEM_POWER_POLICY': '3' bytes padding added after data member '_SYSTEM_POWER_POLICY::VideoDimDisplay'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16169): warning C4820: '_IMAGE_IMPORT_BY_NAME': '1' bytes padding added after data member '_IMAGE_IMPORT_BY_NAME::Name'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16398): warning C4820: '_IMAGE_RESOURCE_DIRECTORY_STRING': '1' bytes padding added after data member '_IMAGE_RESOURCE_DIRECTORY_STRING::NameString'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(16656): warning C4820: '_IMAGE_DEBUG_MISC': '3' bytes padding added after data member '_IMAGE_DEBUG_MISC::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17487): warning C4820: '_SLIST_ENTRY': '8' bytes padding added after data member '_SLIST_ENTRY::Next'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(17842): warning C4820: '_MESSAGE_RESOURCE_ENTRY': '1' bytes padding added after data member '_MESSAGE_RESOURCE_ENTRY::Text'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18148): warning C4820: '_RTL_CRITICAL_SECTION_DEBUG': '4' bytes padding added after data member '_RTL_CRITICAL_SECTION_DEBUG::CreatorBackTraceIndex'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18312): warning C4820: '_ASSEMBLY_FILE_DETAILED_INFORMATION': '4' bytes padding added after data member '_ASSEMBLY_FILE_DETAILED_INFORMATION::ulPathLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18349): warning C4820: '_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION': '4' bytes padding added after data member '_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION::ulFileCount'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18415): warning C4820: '_ACTIVATION_CONTEXT_DETAILED_INFORMATION': '4' bytes padding added after data member '_ACTIVATION_CONTEXT_DETAILED_INFORMATION::ulAppDirPathChars'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18858): warning C4820: '_TAPE_ERASE': '3' bytes padding added after data member '_TAPE_ERASE::Immediate'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18874): warning C4820: '_TAPE_PREPARE': '3' bytes padding added after data member '_TAPE_PREPARE::Immediate'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18889): warning C4820: '_TAPE_WRITE_MARKS': '3' bytes padding added after data member '_TAPE_WRITE_MARKS::Immediate'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(18925): warning C4820: '_TAPE_SET_POSITION': '7' bytes padding added after data member '_TAPE_SET_POSITION::Immediate'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19049): warning C4820: '_TAPE_GET_MEDIA_PARAMETERS': '7' bytes padding added after data member '_TAPE_GET_MEDIA_PARAMETERS::WriteProtected'
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h(136): warning C4820: '_TRANSACTION_NOTIFICATION': '4' bytes padding added after data member '_TRANSACTION_NOTIFICATION::TransactionNotification'
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h(138): warning C4820: '_TRANSACTION_NOTIFICATION': '4' bytes padding added after data member '_TRANSACTION_NOTIFICATION::ArgumentLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19314): warning C4820: '_TRANSACTIONMANAGER_LOGPATH_INFORMATION': '2' bytes padding added after data member '_TRANSACTIONMANAGER_LOGPATH_INFORMATION::LogPath'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19336): warning C4820: '_TRANSACTION_PROPERTIES_INFORMATION': '6' bytes padding added after data member '_TRANSACTION_PROPERTIES_INFORMATION::Description'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19363): warning C4820: '_RESOURCEMANAGER_BASIC_INFORMATION': '2' bytes padding added after data member '_RESOURCEMANAGER_BASIC_INFORMATION::Description'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19535): warning C4820: '_TP_CALLBACK_ENVIRON_V3': '4' bytes padding added after data member '_TP_CALLBACK_ENVIRON_V3::Version'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(19551): warning C4820: '_TP_CALLBACK_ENVIRON_V3': '4' bytes padding added after data member '_TP_CALLBACK_ENVIRON_V3::Size'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(47): warning C4820: '_SECURITY_ATTRIBUTES': '4' bytes padding added after data member '_SECURITY_ATTRIBUTES::nLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(49): warning C4820: '_SECURITY_ATTRIBUTES': '4' bytes padding added after data member '_SECURITY_ATTRIBUTES::bInheritHandle'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(70): warning C4820: '_OVERLAPPED_ENTRY': '4' bytes padding added after data member '_OVERLAPPED_ENTRY::dwNumberOfBytesTransferred'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(117): warning C4820: '_WIN32_FIND_DATAA': '2' bytes padding added after data member '_WIN32_FIND_DATAA::cAlternateFileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(227): warning C4820: '_PROCESS_HEAP_ENTRY::<unnamed-tag>': '4' bytes padding added after data member '_PROCESS_HEAP_ENTRY::<unnamed-tag>::dwReserved'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(281): warning C4820: '_EXCEPTION_DEBUG_INFO': '4' bytes padding added after data member '_EXCEPTION_DEBUG_INFO::dwFirstChance'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(300): warning C4820: '_CREATE_PROCESS_DEBUG_INFO': '6' bytes padding added after data member '_CREATE_PROCESS_DEBUG_INFO::fUnicode'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(317): warning C4820: '_LOAD_DLL_DEBUG_INFO': '6' bytes padding added after data member '_LOAD_DLL_DEBUG_INFO::fUnicode'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(327): warning C4820: '_OUTPUT_DEBUG_STRING_INFO': '4' bytes padding added after data member '_OUTPUT_DEBUG_STRING_INFO::nDebugStringLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(349): warning C4820: '_DEBUG_EVENT': '4' bytes padding added after data member '_DEBUG_EVENT::dwThreadId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h(48): warning C4820: '_HEAP_SUMMARY': '4' bytes padding added after data member '_HEAP_SUMMARY::cb'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(62): warning C4820: '_STARTUPINFOA': '4' bytes padding added after data member '_STARTUPINFOA::cb'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(75): warning C4820: '_STARTUPINFOA': '4' bytes padding added after data member '_STARTUPINFOA::cbReserved2'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(82): warning C4820: '_STARTUPINFOW': '4' bytes padding added after data member '_STARTUPINFOW::cb'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(95): warning C4820: '_STARTUPINFOW': '4' bytes padding added after data member '_STARTUPINFOW::cbReserved2'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(1170): warning C4668: '_WIN32_WINNT_WINTHRESHOLD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(422): warning C4820: '_COMMPROP': '2' bytes padding added after data member '_COMMPROP::wcProvChar'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(508): warning C4820: '_COMMCONFIG': '2' bytes padding added after data member '_COMMCONFIG::wcProviderData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(1419): warning C4820: '_UMS_SCHEDULER_STARTUP_INFO': '4' bytes padding added after data member '_UMS_SCHEDULER_STARTUP_INFO::UmsVersion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(2906): warning C4820: '_WIN32_STREAM_ID': '2' bytes padding added after data member '_WIN32_STREAM_ID::cStreamName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7294): warning C4820: 'tagHW_PROFILE_INFOA': '1' bytes padding added after data member 'tagHW_PROFILE_INFOA::szHwProfileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7299): warning C4820: 'tagHW_PROFILE_INFOW': '2' bytes padding added after data member 'tagHW_PROFILE_INFOW::szHwProfileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h(67): warning C4820: '_TIME_DYNAMIC_ZONE_INFORMATION': '3' bytes padding added after data member '_TIME_DYNAMIC_ZONE_INFORMATION::DynamicDaylightTimeDisabled'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7688): warning C4820: 'tagACTCTXA': '4' bytes padding added after data member 'tagACTCTXA::wLangId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7699): warning C4820: 'tagACTCTXW': '4' bytes padding added after data member 'tagACTCTXW::wLangId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7796): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_2600': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_2600::ulLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7798): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_2600': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_2600::ulSectionGlobalDataLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7800): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_2600': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_2600::ulSectionTotalLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7802): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_2600': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_2600::ulAssemblyRosterIndex'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7809): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::ulSectionLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7811): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA_ASSEMBLY_METADATA::ulSectionGlobalDataLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7819): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA::ulLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7821): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA::ulSectionGlobalDataLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7823): warning C4820: 'tagACTCTX_SECTION_KEYED_DATA': '4' bytes padding added after data member 'tagACTCTX_SECTION_KEYED_DATA::ulSectionTotalLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(7883): warning C4820: '_ACTIVATION_CONTEXT_BASIC_INFORMATION': '4' bytes padding added after data member '_ACTIVATION_CONTEXT_BASIC_INFORMATION::dwFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8199): warning C4820: '_FILE_BASIC_INFO': '4' bytes padding added after data member '_FILE_BASIC_INFO::FileAttributes'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8207): warning C4820: '_FILE_STANDARD_INFO': '2' bytes padding added after data member '_FILE_STANDARD_INFO::Directory'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8212): warning C4820: '_FILE_NAME_INFO': '2' bytes padding added after data member '_FILE_NAME_INFO::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8216): warning C4820: '_FILE_RENAME_INFO': '7' bytes padding added after data member '_FILE_RENAME_INFO::ReplaceIfExists'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8219): warning C4820: '_FILE_RENAME_INFO': '2' bytes padding added after data member '_FILE_RENAME_INFO::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8235): warning C4820: '_FILE_STREAM_INFO': '6' bytes padding added after data member '_FILE_STREAM_INFO::StreamName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8268): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '1' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::ShortNameLength'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8269): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '2' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::ShortName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8271): warning C4820: '_FILE_ID_BOTH_DIR_INFO': '6' bytes padding added after data member '_FILE_ID_BOTH_DIR_INFO::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8286): warning C4820: '_FILE_FULL_DIR_INFO': '2' bytes padding added after data member '_FILE_FULL_DIR_INFO::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8362): warning C4820: '_FILE_ID_EXTD_DIR_INFO': '6' bytes padding added after data member '_FILE_ID_EXTD_DIR_INFO::FileName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h(8618): warning C4668: 'NTDDI_WIN7SP1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(605): warning C4820: 'tagBITMAP': '4' bytes padding added after data member 'tagBITMAP::bmBitsPixel'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(923): warning C4820: 'tagBITMAPCOREINFO': '1' bytes padding added after data member 'tagBITMAPCOREINFO::bmciColors'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1033): warning C4820: 'tagMETAFILEPICT': '4' bytes padding added after data member 'tagMETAFILEPICT::yExt'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1165): warning C4820: 'tagTEXTMETRICA': '3' bytes padding added after data member 'tagTEXTMETRICA::tmCharSet'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1188): warning C4820: 'tagTEXTMETRICW': '3' bytes padding added after data member 'tagTEXTMETRICW::tmCharSet'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1248): warning C4820: 'tagNEWTEXTMETRICA': '3' bytes padding added after data member 'tagNEWTEXTMETRICA::tmCharSet'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1275): warning C4820: 'tagNEWTEXTMETRICW': '3' bytes padding added after data member 'tagNEWTEXTMETRICW::tmCharSet'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1336): warning C4820: 'tagPELARRAY': '3' bytes padding added after data member 'tagPELARRAY::paRGBs'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1810): warning C4820: 'tagEXTLOGFONTA': '2' bytes padding added after data member 'tagEXTLOGFONTA::elfPanose'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1822): warning C4820: 'tagEXTLOGFONTW': '2' bytes padding added after data member 'tagEXTLOGFONTW::elfPanose'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3050): warning C4820: 'DISPLAYCONFIG_TARGET_PREFERRED_MODE': '4' bytes padding added after data member 'DISPLAYCONFIG_TARGET_PREFERRED_MODE::height'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3132): warning C4820: '_RGNDATA': '3' bytes padding added after data member '_RGNDATA::Buffer'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3174): warning C4820: '_OUTLINETEXTMETRICA': '1' bytes padding added after data member '_OUTLINETEXTMETRICA::otmPanoseNumber'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3198): warning C4820: '_OUTLINETEXTMETRICA': '4' bytes padding added after data member '_OUTLINETEXTMETRICA::otmsUnderscorePosition'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3208): warning C4820: '_OUTLINETEXTMETRICW': '1' bytes padding added after data member '_OUTLINETEXTMETRICW::otmPanoseNumber'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3266): warning C4820: 'tagPOLYTEXTA': '4' bytes padding added after data member 'tagPOLYTEXTA::n'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3269): warning C4820: 'tagPOLYTEXTA': '4' bytes padding added after data member 'tagPOLYTEXTA::rcl'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3276): warning C4820: 'tagPOLYTEXTW': '4' bytes padding added after data member 'tagPOLYTEXTW::n'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3279): warning C4820: 'tagPOLYTEXTW': '4' bytes padding added after data member 'tagPOLYTEXTW::rcl'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3430): warning C4820: 'tagGCP_RESULTSA': '4' bytes padding added after data member 'tagGCP_RESULTSA::lStructSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(3442): warning C4820: 'tagGCP_RESULTSW': '4' bytes padding added after data member 'tagGCP_RESULTSW::lStructSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4773): warning C4820: 'tagDIBSECTION': '4' bytes padding added after data member 'tagDIBSECTION::dsBitfields'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4775): warning C4820: 'tagDIBSECTION': '4' bytes padding added after data member 'tagDIBSECTION::dsOffset'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4873): warning C4820: '_DOCINFOA': '4' bytes padding added after data member '_DOCINFOA::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4879): warning C4820: '_DOCINFOA': '4' bytes padding added after data member '_DOCINFOA::fwType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4882): warning C4820: '_DOCINFOW': '4' bytes padding added after data member '_DOCINFOW::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(4888): warning C4820: '_DOCINFOW': '4' bytes padding added after data member '_DOCINFOW::fwType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5428): warning C4820: 'tagEMRGDICOMMENT': '3' bytes padding added after data member 'tagEMRGDICOMMENT::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5587): warning C4820: 'tagEMRPOLYDRAW': '3' bytes padding added after data member 'tagEMRPOLYDRAW::abTypes'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5596): warning C4820: 'tagEMRPOLYDRAW16': '3' bytes padding added after data member 'tagEMRPOLYDRAW16::abTypes'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5626): warning C4820: 'tagEMRINVERTRGN': '3' bytes padding added after data member 'tagEMRINVERTRGN::RgnData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5636): warning C4820: 'tagEMRFILLRGN': '3' bytes padding added after data member 'tagEMRFILLRGN::RgnData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5646): warning C4820: 'tagEMRFRAMERGN': '3' bytes padding added after data member 'tagEMRFRAMERGN::RgnData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5654): warning C4820: 'tagEMREXTSELECTCLIPRGN': '3' bytes padding added after data member 'tagEMREXTSELECTCLIPRGN::RgnData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5901): warning C4820: 'tagEMRGLSRECORD': '3' bytes padding added after data member 'tagEMRGLSRECORD::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5909): warning C4820: 'tagEMRGLSBOUNDEDRECORD': '3' bytes padding added after data member 'tagEMRGLSBOUNDEDRECORD::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5942): warning C4820: 'tagEMREXTESCAPE': '3' bytes padding added after data member 'tagEMREXTESCAPE::EscData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5952): warning C4820: 'tagEMRNAMEDESCAPE': '3' bytes padding added after data member 'tagEMRNAMEDESCAPE::EscData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5963): warning C4820: 'tagEMRSETICMPROFILE': '3' bytes padding added after data member 'tagEMRSETICMPROFILE::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5977): warning C4820: 'tagEMRCREATECOLORSPACEW': '3' bytes padding added after data member 'tagEMRCREATECOLORSPACEW::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(5989): warning C4820: 'tagCOLORMATCHTOTARGET': '3' bytes padding added after data member 'tagCOLORMATCHTOTARGET::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(6207): warning C4820: '_WGLSWAP': '4' bytes padding added after data member '_WGLSWAP::uiFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(799): warning C4820: 'tagCBTACTIVATESTRUCT': '4' bytes padding added after data member 'tagCBTACTIVATESTRUCT::fMouse'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(990): warning C4820: 'tagCWPSTRUCT': '4' bytes padding added after data member 'tagCWPSTRUCT::message'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1002): warning C4820: 'tagCWPRETSTRUCT': '4' bytes padding added after data member 'tagCWPRETSTRUCT::message'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1047): warning C4820: 'tagMSLLHOOKSTRUCT': '4' bytes padding added after data member 'tagMSLLHOOKSTRUCT::time'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1068): warning C4820: 'tagDEBUGHOOKINFO': '4' bytes padding added after data member 'tagDEBUGHOOKINFO::code'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1077): warning C4820: 'tagMOUSEHOOKSTRUCT': '4' bytes padding added after data member 'tagMOUSEHOOKSTRUCT::wHitTestCode'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1085): warning C4820: 'tagMOUSEHOOKSTRUCTEX': '4' bytes padding added after data member 'tagMOUSEHOOKSTRUCTEX::mouseData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1102): warning C4820: 'tagHARDWAREHOOKSTRUCT': '4' bytes padding added after data member 'tagHARDWAREHOOKSTRUCT::message'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1250): warning C4820: 'tagMOUSEMOVEPOINT': '4' bytes padding added after data member 'tagMOUSEMOVEPOINT::time'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1720): warning C4820: 'tagWNDCLASSA': '4' bytes padding added after data member 'tagWNDCLASSA::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1732): warning C4820: 'tagWNDCLASSW': '4' bytes padding added after data member 'tagWNDCLASSW::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1784): warning C4820: 'tagMSG': '4' bytes padding added after data member 'tagMSG::message'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1791): warning C4820: 'tagMSG': '4' bytes padding added after data member 'tagMSG::pt'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(1998): warning C4820: 'tagCOPYDATASTRUCT': '4' bytes padding added after data member 'tagCOPYDATASTRUCT::cbData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(2261): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member '<unnamed-tag>::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(2583): warning C4820: 'tagWINDOWPOS': '4' bytes padding added after data member 'tagWINDOWPOS::flags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(2653): warning C4820: 'tagTRACKMOUSEEVENT': '4' bytes padding added after data member 'tagTRACKMOUSEEVENT::dwHoverTime'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3064): warning C4820: 'tagACCEL': '1' bytes padding added after data member 'tagACCEL::fVirt'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3080): warning C4820: 'tagPAINTSTRUCT': '4' bytes padding added after data member 'tagPAINTSTRUCT::rgbReserved'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3092): warning C4820: 'tagCREATESTRUCTA': '4' bytes padding added after data member 'tagCREATESTRUCTA::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3095): warning C4820: 'tagCREATESTRUCTA': '4' bytes padding added after data member 'tagCREATESTRUCTA::dwExStyle'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3106): warning C4820: 'tagCREATESTRUCTW': '4' bytes padding added after data member 'tagCREATESTRUCTW::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3109): warning C4820: 'tagCREATESTRUCTW': '4' bytes padding added after data member 'tagCREATESTRUCTW::dwExStyle'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3150): warning C4820: 'tagNMHDR': '4' bytes padding added after data member 'tagNMHDR::code'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3222): warning C4820: 'tagMEASUREITEMSTRUCT': '4' bytes padding added after data member 'tagMEASUREITEMSTRUCT::itemHeight'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3234): warning C4820: 'tagDRAWITEMSTRUCT': '4' bytes padding added after data member 'tagDRAWITEMSTRUCT::itemState'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3247): warning C4820: 'tagDELETEITEMSTRUCT': '4' bytes padding added after data member 'tagDELETEITEMSTRUCT::itemID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3259): warning C4820: 'tagCOMPAREITEMSTRUCT': '4' bytes padding added after data member 'tagCOMPAREITEMSTRUCT::itemID1'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3261): warning C4820: 'tagCOMPAREITEMSTRUCT': '4' bytes padding added after data member 'tagCOMPAREITEMSTRUCT::itemID2'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3263): warning C4820: 'tagCOMPAREITEMSTRUCT': '4' bytes padding added after data member 'tagCOMPAREITEMSTRUCT::dwLocaleId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(3675): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4365): warning C4820: 'tagUPDATELAYEREDWINDOWINFO': '4' bytes padding added after data member 'tagUPDATELAYEREDWINDOWINFO::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4371): warning C4820: 'tagUPDATELAYEREDWINDOWINFO': '4' bytes padding added after data member 'tagUPDATELAYEREDWINDOWINFO::crKey'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4373): warning C4820: 'tagUPDATELAYEREDWINDOWINFO': '4' bytes padding added after data member 'tagUPDATELAYEREDWINDOWINFO::dwFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4477): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(4481): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member '<unnamed-tag>::dwTimeout'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(5806): warning C4820: 'tagMOUSEINPUT': '4' bytes padding added after data member 'tagMOUSEINPUT::time'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(5814): warning C4820: 'tagKEYBDINPUT': '4' bytes padding added after data member 'tagKEYBDINPUT::time'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(5835): warning C4820: 'tagINPUT': '4' bytes padding added after data member 'tagINPUT::type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(6053): warning C4820: 'tagPOINTER_INFO': '4' bytes padding added after data member 'tagPOINTER_INFO::ButtonChangeType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(6321): warning C4820: 'tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION': '2' bytes padding added after data member 'tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION::score'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7327): warning C4820: 'tagMENUINFO': '4' bytes padding added after data member 'tagMENUINFO::dwContextHelpID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7414): warning C4820: 'tagMENUITEMINFOA': '4' bytes padding added after data member 'tagMENUITEMINFOA::wID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7421): warning C4820: 'tagMENUITEMINFOA': '4' bytes padding added after data member 'tagMENUITEMINFOA::cch'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7431): warning C4820: 'tagMENUITEMINFOW': '4' bytes padding added after data member 'tagMENUITEMINFOW::wID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7438): warning C4820: 'tagMENUITEMINFOW': '4' bytes padding added after data member 'tagMENUITEMINFOW::cch'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7617): warning C4820: 'tagDROPSTRUCT': '4' bytes padding added after data member 'tagDROPSTRUCT::wFmt'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(7620): warning C4820: 'tagDROPSTRUCT': '4' bytes padding added after data member 'tagDROPSTRUCT::dwControlData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8576): warning C4820: 'tagHELPINFO': '4' bytes padding added after data member 'tagHELPINFO::iCtrlId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8763): warning C4820: 'tagMSGBOXPARAMSA': '4' bytes padding added after data member 'tagMSGBOXPARAMSA::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8768): warning C4820: 'tagMSGBOXPARAMSA': '4' bytes padding added after data member 'tagMSGBOXPARAMSA::dwStyle'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8772): warning C4820: 'tagMSGBOXPARAMSA': '4' bytes padding added after data member 'tagMSGBOXPARAMSA::dwLanguageId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8776): warning C4820: 'tagMSGBOXPARAMSW': '4' bytes padding added after data member 'tagMSGBOXPARAMSW::cbSize'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8781): warning C4820: 'tagMSGBOXPARAMSW': '4' bytes padding added after data member 'tagMSGBOXPARAMSW::dwStyle'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8785): warning C4820: 'tagMSGBOXPARAMSW': '4' bytes padding added after data member 'tagMSGBOXPARAMSW::dwLanguageId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10106): warning C4820: '_ICONINFO': '4' bytes padding added after data member '_ICONINFO::yHotspot'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10229): warning C4820: 'tagCURSORSHAPE': '2' bytes padding added after data member 'tagCURSORSHAPE::BitsPixel'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10352): warning C4820: '_ICONINFOEXA': '6' bytes padding added after data member '_ICONINFOEXA::szResName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10363): warning C4820: '_ICONINFOEXW': '6' bytes padding added after data member '_ICONINFOEXW::szResName'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11439): warning C4820: 'tagMDICREATESTRUCTA': '4' bytes padding added after data member 'tagMDICREATESTRUCTA::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11450): warning C4820: 'tagMDICREATESTRUCTW': '4' bytes padding added after data member 'tagMDICREATESTRUCTW::style'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11463): warning C4820: 'tagCLIENTCREATESTRUCT': '4' bytes padding added after data member 'tagCLIENTCREATESTRUCT::idFirstChild'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11617): warning C4820: 'tagMULTIKEYHELPA': '2' bytes padding added after data member 'tagMULTIKEYHELPA::szKeyphrase'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(11645): warning C4820: 'tagHELPWININFOA': '2' bytes padding added after data member 'tagHELPWININFOA::rgchMember'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(12270): warning C4820: 'tagSERIALKEYSA': '4' bytes padding added after data member 'tagSERIALKEYSA::iActive'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(12280): warning C4820: 'tagSERIALKEYSW': '4' bytes padding added after data member 'tagSERIALKEYSW::iActive'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(12728): warning C4820: 'tagSOUNDSENTRYA': '4' bytes padding added after data member 'tagSOUNDSENTRYA::iWindowsEffectOrdinal'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(12743): warning C4820: 'tagSOUNDSENTRYW': '4' bytes padding added after data member 'tagSOUNDSENTRYW::iWindowsEffectOrdinal'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(13873): warning C4820: 'tagMENUBARINFO': '4' bytes padding added after data member 'tagMENUBARINFO::rcBar'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(13877): warning C4820: 'tagMENUBARINFO': '4' bytes padding added after data member 'tagMENUBARINFO::fFocused'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14157): warning C4820: 'tagRAWMOUSE': '2' bytes padding added after data member 'tagRAWMOUSE::usFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14288): warning C4820: 'tagRAWHID': '3' bytes padding added after data member 'tagRAWHID::bRawData'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14493): warning C4820: 'tagRAWINPUTDEVICELIST': '4' bytes padding added after data member 'tagRAWINPUTDEVICELIST::dwType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14551): warning C4820: 'tagPOINTER_DEVICE_INFO': '4' bytes padding added after data member 'tagPOINTER_DEVICE_INFO::displayOrientation'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14553): warning C4820: 'tagPOINTER_DEVICE_INFO': '4' bytes padding added after data member 'tagPOINTER_DEVICE_INFO::pointerDeviceType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14557): warning C4820: 'tagPOINTER_DEVICE_INFO': '2' bytes padding added after data member 'tagPOINTER_DEVICE_INFO::productString'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14767): warning C4820: 'tagGESTUREINFO': '4' bytes padding added after data member 'tagGESTUREINFO::dwID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14771): warning C4820: 'tagGESTUREINFO': '4' bytes padding added after data member 'tagGESTUREINFO::dwSequenceID'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(14773): warning C4820: 'tagGESTUREINFO': '4' bytes padding added after data member 'tagGESTUREINFO::cbExtraArgs'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(961): warning C4820: '_cpinfo': '2' bytes padding added after data member '_cpinfo::LeadByte'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(996): warning C4820: '_numberfmtA': '4' bytes padding added after data member '_numberfmtA::Grouping'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(999): warning C4820: '_numberfmtA': '4' bytes padding added after data member '_numberfmtA::NegativeOrder'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(1004): warning C4820: '_numberfmtW': '4' bytes padding added after data member '_numberfmtW::Grouping'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(1007): warning C4820: '_numberfmtW': '4' bytes padding added after data member '_numberfmtW::NegativeOrder'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(1025): warning C4820: '_currencyfmtA': '4' bytes padding added after data member '_currencyfmtA::Grouping'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h(1035): warning C4820: '_currencyfmtW': '4' bytes padding added after data member '_currencyfmtW::Grouping'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h(145): warning C4820: '_INPUT_RECORD': '2' bytes padding added after data member '_INPUT_RECORD::EventType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(121): warning C4820: 'val_context': '4' bytes padding added after data member 'val_context::valuelen'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(130): warning C4820: 'pvalueA': '4' bytes padding added after data member 'pvalueA::pv_valuelen'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(132): warning C4820: 'pvalueA': '4' bytes padding added after data member 'pvalueA::pv_type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(136): warning C4820: 'pvalueW': '4' bytes padding added after data member 'pvalueW::pv_valuelen'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(138): warning C4820: 'pvalueW': '4' bytes padding added after data member 'pvalueW::pv_type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(160): warning C4820: 'provider_info': '4' bytes padding added after data member 'provider_info::pi_flags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(168): warning C4820: 'value_entA': '4' bytes padding added after data member 'value_entA::ve_valuelen'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(170): warning C4820: 'value_entA': '4' bytes padding added after data member 'value_entA::ve_type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(174): warning C4820: 'value_entW': '4' bytes padding added after data member 'value_entW::ve_valuelen'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h(176): warning C4820: 'value_entW': '4' bytes padding added after data member 'value_entW::ve_type'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(347): warning C4820: '_CONNECTDLGSTRUCTA': '4' bytes padding added after data member '_CONNECTDLGSTRUCTA::cbStructure'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(354): warning C4820: '_CONNECTDLGSTRUCTW': '4' bytes padding added after data member '_CONNECTDLGSTRUCTW::cbStructure'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(398): warning C4820: '_DISCDLGSTRUCTA': '4' bytes padding added after data member '_DISCDLGSTRUCTA::cbStructure'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(402): warning C4820: '_DISCDLGSTRUCTA': '4' bytes padding added after data member '_DISCDLGSTRUCTA::dwFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(405): warning C4820: '_DISCDLGSTRUCTW': '4' bytes padding added after data member '_DISCDLGSTRUCTW::cbStructure'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(409): warning C4820: '_DISCDLGSTRUCTW': '4' bytes padding added after data member '_DISCDLGSTRUCTW::dwFlags'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(667): warning C4820: '_NETINFOSTRUCT': '2' bytes padding added after data member '_NETINFOSTRUCT::wNetType'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h(669): warning C4820: '_NETINFOSTRUCT': '4' bytes padding added after data member '_NETINFOSTRUCT::dwDrives'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(467): warning C4820: '_SERVICE_CUSTOM_SYSTEM_STATE_CHANGE_DATA_ITEM::<unnamed-tag>': '3' bytes padding added after data member '_SERVICE_CUSTOM_SYSTEM_STATE_CHANGE_DATA_ITEM::<unnamed-tag>::Data'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(520): warning C4820: '_SERVICE_FAILURE_ACTIONSA': '4' bytes padding added after data member '_SERVICE_FAILURE_ACTIONSA::dwResetPeriod'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(529): warning C4820: '_SERVICE_FAILURE_ACTIONSA': '4' bytes padding added after data member '_SERVICE_FAILURE_ACTIONSA::cActions'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(533): warning C4820: '_SERVICE_FAILURE_ACTIONSW': '4' bytes padding added after data member '_SERVICE_FAILURE_ACTIONSW::dwResetPeriod'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(542): warning C4820: '_SERVICE_FAILURE_ACTIONSW': '4' bytes padding added after data member '_SERVICE_FAILURE_ACTIONSW::cActions'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(633): warning C4820: '_SERVICE_TRIGGER': '4' bytes padding added after data member '_SERVICE_TRIGGER::cDataItems'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(647): warning C4820: '_SERVICE_TRIGGER_INFO': '4' bytes padding added after data member '_SERVICE_TRIGGER_INFO::cTriggers'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(657): warning C4820: '_SERVICE_PREFERRED_NODE_INFO': '1' bytes padding added after data member '_SERVICE_PREFERRED_NODE_INFO::fDelete'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(734): warning C4820: '_ENUM_SERVICE_STATUSA': '4' bytes padding added after data member '_ENUM_SERVICE_STATUSA::ServiceStatus'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(739): warning C4820: '_ENUM_SERVICE_STATUSW': '4' bytes padding added after data member '_ENUM_SERVICE_STATUSW::ServiceStatus'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(752): warning C4820: '_ENUM_SERVICE_STATUS_PROCESSA': '4' bytes padding added after data member '_ENUM_SERVICE_STATUS_PROCESSA::ServiceStatusProcess'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(757): warning C4820: '_ENUM_SERVICE_STATUS_PROCESSW': '4' bytes padding added after data member '_ENUM_SERVICE_STATUS_PROCESSW::ServiceStatusProcess'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(774): warning C4820: '_QUERY_SERVICE_LOCK_STATUSA': '4' bytes padding added after data member '_QUERY_SERVICE_LOCK_STATUSA::fIsLocked'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(776): warning C4820: '_QUERY_SERVICE_LOCK_STATUSA': '4' bytes padding added after data member '_QUERY_SERVICE_LOCK_STATUSA::dwLockDuration'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(779): warning C4820: '_QUERY_SERVICE_LOCK_STATUSW': '4' bytes padding added after data member '_QUERY_SERVICE_LOCK_STATUSW::fIsLocked'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(781): warning C4820: '_QUERY_SERVICE_LOCK_STATUSW': '4' bytes padding added after data member '_QUERY_SERVICE_LOCK_STATUSW::dwLockDuration'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(800): warning C4820: '_QUERY_SERVICE_CONFIGA': '4' bytes padding added after data member '_QUERY_SERVICE_CONFIGA::dwErrorControl'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(803): warning C4820: '_QUERY_SERVICE_CONFIGA': '4' bytes padding added after data member '_QUERY_SERVICE_CONFIGA::dwTagId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(811): warning C4820: '_QUERY_SERVICE_CONFIGW': '4' bytes padding added after data member '_QUERY_SERVICE_CONFIGW::dwErrorControl'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(814): warning C4820: '_QUERY_SERVICE_CONFIGW': '4' bytes padding added after data member '_QUERY_SERVICE_CONFIGW::dwTagId'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(925): warning C4820: '_SERVICE_NOTIFY_1': '4' bytes padding added after data member '_SERVICE_NOTIFY_1::dwVersion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(933): warning C4820: '_SERVICE_NOTIFY_2A': '4' bytes padding added after data member '_SERVICE_NOTIFY_2A::dwVersion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(938): warning C4820: '_SERVICE_NOTIFY_2A': '4' bytes padding added after data member '_SERVICE_NOTIFY_2A::dwNotificationTriggered'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(942): warning C4820: '_SERVICE_NOTIFY_2W': '4' bytes padding added after data member '_SERVICE_NOTIFY_2W::dwVersion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(947): warning C4820: '_SERVICE_NOTIFY_2W': '4' bytes padding added after data member '_SERVICE_NOTIFY_2W::dwNotificationTriggered'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(972): warning C4820: '_SERVICE_CONTROL_STATUS_REASON_PARAMSA': '4' bytes padding added after data member '_SERVICE_CONTROL_STATUS_REASON_PARAMSA::dwReason'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(974): warning C4820: '_SERVICE_CONTROL_STATUS_REASON_PARAMSA': '4' bytes padding added after data member '_SERVICE_CONTROL_STATUS_REASON_PARAMSA::ServiceStatus'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(980): warning C4820: '_SERVICE_CONTROL_STATUS_REASON_PARAMSW': '4' bytes padding added after data member '_SERVICE_CONTROL_STATUS_REASON_PARAMSW::dwReason'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h(982): warning C4820: '_SERVICE_CONTROL_STATUS_REASON_PARAMSW': '4' bytes padding added after data member '_SERVICE_CONTROL_STATUS_REASON_PARAMSW::ServiceStatus'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h(43): warning C4820: '_MODEMDEVCAPS': '3' bytes padding added after data member '_MODEMDEVCAPS::abVariablePortion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h(64): warning C4820: '_MODEMSETTINGS': '3' bytes padding added after data member '_MODEMSETTINGS::abVariablePortion'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h(182): warning C4820: 'tagIMEMENUITEMINFOA': '4' bytes padding added after data member 'tagIMEMENUITEMINFOA::szString'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h(193): warning C4820: 'tagIMEMENUITEMINFOW': '4' bytes padding added after data member 'tagIMEMENUITEMINFOW::szString'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail\setup.hpp(414): warning C4668: '_M_IX86_FP' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec2.hpp(66): warning C4201: nonstandard extension used: nameless struct/union
+  d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec2.hpp(229): note: see reference to class template instantiation 'glm::tvec2<T,P>' being compiled
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec2.hpp(67): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec2.hpp(68): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec3.hpp(66): warning C4201: nonstandard extension used: nameless struct/union
+  d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec3.hpp(251): note: see reference to class template instantiation 'glm::tvec3<T,P>' being compiled
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec3.hpp(67): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec3.hpp(68): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec4.hpp(120): warning C4201: nonstandard extension used: nameless struct/union
+  d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec4.hpp(350): note: see reference to class template instantiation 'glm::tvec4<T,P>' being compiled
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec4.hpp(121): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_vec4.hpp(122): warning C4201: nonstandard extension used: nameless struct/union
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat2x2.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat2x3.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat2x4.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat3x2.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat3x3.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat3x4.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat4x2.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat4x3.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/type_mat4x4.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail\type_vec1.hpp(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail\func_packing.inl(35): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(47): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(48): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(49): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(50): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(51): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(52): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(53): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(54): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(55): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(56): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(57): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(58): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(59): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(60): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail/func_matrix.hpp(61): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail\func_matrix.inl(33): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\detail\func_integer.inl(211): warning C4365: '=': conversion from 'int' to 'glm::uint', signed/unsigned mismatch
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/matrix_transform.hpp(53): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/matrix_transform.hpp(54): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/matrix_transform.hpp(55): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/matrix_transform.hpp(56): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/matrix_transform.hpp(57): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/constants.hpp(46): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\matrix_transform.inl(33): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\matrix_transform.inl(34): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\matrix_transform.inl(35): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glfw\include\GLFW/glfw3.h(1183): warning C4820: 'GLFWgammaramp': '4' bytes padding added after data member 'GLFWgammaramp::size'
+d:\datorgrafik\eda221\code\src\core\InputHandler.h(27): warning C4820: 'InputHandler::IState': '7' bytes padding added after data member 'InputHandler::IState::mIsDown'
+d:\datorgrafik\eda221\code\src\core\InputHandler.h(23): warning C4245: 'initializing': conversion from 'int' to 'u64', signed/unsigned mismatch
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(35): warning C4820: '_timespec64': '4' bytes padding added after data member '_timespec64::tv_nsec'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(42): warning C4820: 'timespec': '4' bytes padding added after data member 'timespec::tv_nsec'
+D:\datorgrafik\Eda221\code\src\core/Window.h(51): warning C4820: 'Window': '3' bytes padding added after data member 'Window::mFullscreen'
+D:\datorgrafik\Eda221\code\src\core/Window.h(52): warning C4820: 'Window': '4' bytes padding added after data member 'Window::mSwap'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(664): warning C4820: 'ImGuiStyle': '2' bytes padding added after data member 'ImGuiStyle::AntiAliasedShapes'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(694): warning C4820: 'ImGuiIO': '3' bytes padding added after data member 'ImGuiIO::FontAllowUserScaling'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(728): warning C4820: 'ImGuiIO': '3' bytes padding added after data member 'ImGuiIO::MouseDown'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(747): warning C4820: 'ImGuiIO': '3' bytes padding added after data member 'ImGuiIO::WantTextInput'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(760): warning C4820: 'ImGuiIO': '3' bytes padding added after data member 'ImGuiIO::MouseClicked'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(765): warning C4820: 'ImGuiIO': '1' bytes padding added after data member 'ImGuiIO::MouseDownOwned'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(772): warning C4820: 'ImGuiIO': '4' bytes padding added after data member 'ImGuiIO::KeysDownDurationPrev'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(878): warning C4820: 'ImGuiTextFilter': '4' bytes padding added after data member 'ImGuiTextFilter::CountGrep'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(910): warning C4820: 'ImGuiStorage::Pair': '4' bytes padding added after data member 'ImGuiStorage::Pair::key'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(950): warning C4820: 'ImGuiTextEditCallbackData': '1' bytes padding added after data member 'ImGuiTextEditCallbackData::ReadOnly'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(957): warning C4820: 'ImGuiTextEditCallbackData': '3' bytes padding added after data member 'ImGuiTextEditCallbackData::BufDirty'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(965): warning C4820: 'ImGuiTextEditCallbackData': '4' bytes padding added after data member 'ImGuiTextEditCallbackData::SelectionEnd'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1037): warning C4820: 'ImDrawCmd': '4' bytes padding added after data member 'ImDrawCmd::ClipRect'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1089): warning C4820: 'ImDrawList': '4' bytes padding added after data member 'ImDrawList::_VtxCurrentIdx'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1161): warning C4820: 'ImDrawData': '7' bytes padding added after data member 'ImDrawData::Valid'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1170): warning C4820: 'ImDrawData': '4' bytes padding added after data member 'ImDrawData::TotalIdxCount'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1177): warning C4820: 'ImFontConfig': '3' bytes padding added after data member 'ImFontConfig::FontDataOwnedByAtlas'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1181): warning C4820: 'ImFontConfig': '3' bytes padding added after data member 'ImFontConfig::PixelSnapH'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1182): warning C4820: 'ImFontConfig': '4' bytes padding added after data member 'ImFontConfig::GlyphExtraSpacing'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1188): warning C4820: 'ImFontConfig': '6' bytes padding added after data member 'ImFontConfig::Name'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1242): warning C4820: 'ImFontAtlas': '4' bytes padding added after data member 'ImFontAtlas::TexUvWhitePixel'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1259): warning C4820: 'ImFont': '6' bytes padding added after data member 'ImFont::FallbackChar'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1266): warning C4820: 'ImFont::Glyph': '2' bytes padding added after data member 'ImFont::Glyph::Codepoint'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1271): warning C4820: 'ImFont': '4' bytes padding added after data member 'ImFont::Descent'
+D:\datorgrafik\Eda221\build\imgui\include\imgui.h(1275): warning C4820: 'ImFont': '4' bytes padding added after data member 'ImFont::FallbackXAdvance'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(257): warning C4820: 'LodePNGDecompressSettings': '4' bytes padding added after data member 'LodePNGDecompressSettings::ignore_adler32'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(407): warning C4820: 'LodePNGInfo': '4' bytes padding added after data member 'LodePNGInfo::interlace_method'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(473): warning C4820: 'LodePNGInfo': '4' bytes padding added after data member 'LodePNGInfo::phys_unit'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(534): warning C4820: 'LodePNGDecoderSettings': '4' bytes padding added after data member 'LodePNGDecoderSettings::remember_unknown_chunks'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(612): warning C4820: 'LodePNGEncoderSettings': '4' bytes padding added after data member 'LodePNGEncoderSettings::filter_strategy'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(623): warning C4820: 'LodePNGEncoderSettings': '4' bytes padding added after data member 'LodePNGEncoderSettings::text_compression'
+D:\datorgrafik\Eda221\code\src\external/lodepng.h(646): warning C4820: 'LodePNGState': '4' bytes padding added after data member 'LodePNGState::error'
+d:\datorgrafik\eda221\build\assimp\include\assimp\texture.h(164): warning C4820: 'aiTexture': '4' bytes padding added after data member 'aiTexture::achFormatHint'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(132): warning C4820: 'aiFace': '4' bytes padding added after data member 'aiFace::mNumIndices'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(243): warning C4820: 'aiBone': '4' bytes padding added after data member 'aiBone::mNumWeights'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(446): warning C4820: 'aiAnimMesh': '4' bytes padding added after data member 'aiAnimMesh::mNumVertices'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(493): warning C4820: 'aiMesh': '4' bytes padding added after data member 'aiMesh::mNumFaces'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(579): warning C4820: 'aiMesh': '4' bytes padding added after data member 'aiMesh::mNumBones'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(599): warning C4820: 'aiMesh': '4' bytes padding added after data member 'aiMesh::mMaterialIndex'
+d:\datorgrafik\eda221\build\assimp\include\assimp\mesh.h(608): warning C4820: 'aiMesh': '4' bytes padding added after data member 'aiMesh::mNumAnimMeshes'
+d:\datorgrafik\eda221\build\assimp\include\assimp\camera.h(216): warning C4820: 'aiCamera': '4' bytes padding added after data member 'aiCamera::mAspect'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(96): warning C4820: 'aiVectorKey': '4' bytes padding added after data member 'aiVectorKey::mValue'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(182): warning C4820: 'aiMeshKey': '4' bytes padding added after data member 'aiMeshKey::mValue'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(244): warning C4820: 'aiNodeAnim': '4' bytes padding added after data member 'aiNodeAnim::mNumPositionKeys'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(255): warning C4820: 'aiNodeAnim': '4' bytes padding added after data member 'aiNodeAnim::mNumRotationKeys'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(266): warning C4820: 'aiNodeAnim': '4' bytes padding added after data member 'aiNodeAnim::mNumScalingKeys'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(320): warning C4820: 'aiMeshAnim': '4' bytes padding added after data member 'aiMeshAnim::mNumKeys'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(359): warning C4820: 'aiAnimation': '4' bytes padding added after data member 'aiAnimation::mNumChannels'
+d:\datorgrafik\eda221\build\assimp\include\assimp\anim.h(368): warning C4820: 'aiAnimation': '4' bytes padding added after data member 'aiAnimation::mNumMeshChannels'
+d:\datorgrafik\eda221\build\assimp\include\assimp\metadata.h(90): warning C4820: 'aiMetadataEntry': '4' bytes padding added after data member 'aiMetadataEntry::mType'
+d:\datorgrafik\eda221\build\assimp\include\assimp\metadata.h(132): warning C4820: 'aiMetadata': '4' bytes padding added after data member 'aiMetadata::mNumProperties'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(107): warning C4820: 'aiNode': '4' bytes padding added after data member 'aiNode::mNumChildren'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(115): warning C4820: 'aiNode': '4' bytes padding added after data member 'aiNode::mNumMeshes'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(295): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mFlags'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(309): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumMeshes'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(323): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumMaterials'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(335): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumAnimations'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(348): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumTextures'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(361): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumLights'
+D:\datorgrafik\Eda221\build\assimp\include\assimp/scene.h(376): warning C4820: 'aiScene': '4' bytes padding added after data member 'aiScene::mNumCameras'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(66): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/quaternion.hpp(47): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/quaternion.hpp(48): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/quaternion.hpp(49): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/quaternion.hpp(50): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\../gtc/quaternion.hpp(51): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\quaternion.inl(33): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\quaternion.inl(34): warning C4464: relative include path contains '..'
+d:\datorgrafik\eda221\build\glm\src\glm\glm\gtc\quaternion.inl(35): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(67): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(68): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(69): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(70): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(71): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(72): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(73): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(74): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(75): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(76): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(77): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\build\glm\src\glm\glm/gtc/type_ptr.hpp(78): warning C4464: relative include path contains '..'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(84): warning C4625: 'sphere_t': copy constructor was implicitly defined as deleted
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(84): warning C4626: 'sphere_t': assignment operator was implicitly defined as deleted
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(124): warning C4820: 'Node': '4' bytes padding added after data member 'Node::_program'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(132): warning C4820: 'Node': '4' bytes padding added after data member 'Node::_translation'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(284): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(326): warning C4189: 'sun_texture': local variable is initialized but not referenced
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(444): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(452): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(460): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(479): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'int swprintf_s(wchar_t *const ,const std::size_t,const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1528): note: see declaration of 'swprintf_s'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'int _scwprintf(const wchar_t *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1759): note: see declaration of '_scwprintf'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'int sprintf_s(char *const ,const std::size_t,const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1826): note: see declaration of 'sprintf_s'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'int _scprintf(const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2091): note: see declaration of '_scprintf'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::exception_ptr std::exception_ptr::_Current_exception(void) throw()': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\exception(300): note: see declaration of 'std::exception_ptr::_Current_exception'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::exception_ptr std::current_exception(void) noexcept': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): note: see declaration of 'std::current_exception'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::locale::name(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(447): note: see declaration of 'std::locale::name'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::error_code::message(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(278): note: see declaration of 'std::error_code::message'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_System_error::_Makestr(std::error_code,std::string)': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(512): note: see declaration of 'std::_System_error::_Makestr'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_Generic_error_category::message(int) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(604): note: see declaration of 'std::_Generic_error_category::message'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_Iostream_error_category::message(int) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(625): note: see declaration of 'std::_Iostream_error_category::message'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_System_error_category::message(int) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(649): note: see declaration of 'std::_System_error_category::message'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::locale std::ios_base::getloc(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xiosbase(433): note: see declaration of 'std::ios_base::getloc'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_truename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(250): note: see declaration of 'std::numpunct<wchar_t>::do_truename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_falsename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(245): note: see declaration of 'std::numpunct<wchar_t>::do_falsename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::numpunct<wchar_t>::do_grouping(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(240): note: see declaration of 'std::numpunct<wchar_t>::do_grouping'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_truename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(250): note: see declaration of 'std::numpunct<char>::do_truename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_falsename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(245): note: see declaration of 'std::numpunct<char>::do_falsename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::numpunct<char>::do_grouping(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(240): note: see declaration of 'std::numpunct<char>::do_grouping'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::truename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(142): note: see declaration of 'std::numpunct<wchar_t>::truename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::falsename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(137): note: see declaration of 'std::numpunct<wchar_t>::falsename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::truename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(142): note: see declaration of 'std::numpunct<char>::truename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::falsename(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(137): note: see declaration of 'std::numpunct<char>::falsename'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>>::operator -(__int64) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(641): note: see declaration of 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>>::operator -'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
+          with
+          [
+              _Ty=glm::mat4
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(1288): note: see declaration of 'std::deque<_Ty,std::allocator<_Ty>>::end'
+          with
+          [
+              _Ty=glm::mat4
+          ]
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>>::operator -(__int64) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(641): note: see declaration of 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>>::operator -'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
+          with
+          [
+              _Ty=const Node *
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(1288): note: see declaration of 'std::deque<_Ty,std::allocator<_Ty>>::end'
+          with
+          [
+              _Ty=const Node *
+          ]
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::numpunct<wchar_t>::grouping(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(132): note: see declaration of 'std::numpunct<wchar_t>::grouping'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::numpunct<char>::grouping(void) const': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(132): note: see declaration of 'std::numpunct<char>::grouping'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,int>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=int
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned int>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned int
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,long>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=long
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned long>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned long
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,__int64>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=__int64
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned __int64>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_Floating_to_string<float>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=float
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_Floating_to_string<double>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=double
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::string std::_Floating_to_string<long double>(const char *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long double
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,int>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=int
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned int>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned int
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,long>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=long
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned long>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned long
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,__int64>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=__int64
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned __int64>(const _Ty)': function not inlined
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=float
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::wstring std::_Floating_to_wstring<double>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=double
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::wstring std::_Floating_to_wstring<long double>(const wchar_t *,_Ty)': function not inlined
+          with
+          [
+              _Ty=long double
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const _Elem *,const std::basic_string<_Elem,std::char_traits<char>,std::allocator<char>> &)': function not inlined
+          with
+          [
+              _Elem=char
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2324): note: see declaration of 'std::operator +'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': function not inlined
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2400): note: see declaration of 'std::operator +'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::unique_ptr<u8 [],std::default_delete<_Ty>> std::make_unique<u8[]>(std::size_t)': function not inlined
+          with
+          [
+              _Ty=u8 []
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\memory(1635): note: see declaration of 'std::make_unique'
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(488): warning C4710: 'std::unique_ptr<GLuint [],std::default_delete<_Ty>> std::make_unique<GLuint[]>(std::size_t)': function not inlined
+          with
+          [
+              _Ty=GLuint []
+          ]
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\memory(1635): note: see declaration of 'std::make_unique'
+  Generating Code...
+  EDA221_Assignment1.vcxproj -> D:\datorgrafik\Eda221\build\src\EDA221_Assignment1\Debug\EDA221_Assignment1.exe

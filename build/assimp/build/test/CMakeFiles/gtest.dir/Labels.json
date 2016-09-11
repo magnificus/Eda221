@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/test/CMakeFiles/gtest"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/src/assimp/test/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/5bd6b797823b87e6532f37da5d1f2d2b/gtest.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/8e67b8478ac42ae46a986576da860ec7/gtest-complete.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-install.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-mkdir.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-download.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-update.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-patch.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-configure.rule"
+		},
+		
+		{
+			"file" : "D:/datorgrafik/Eda221/build/assimp/build/CMakeFiles/6950690590955133f24a1acd6029a335/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gtest" ],
+		"name" : "gtest"
+	}
+}

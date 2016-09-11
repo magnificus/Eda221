@@ -1,0 +1,16 @@
+D:/datorgrafik/Eda221/build/glm/src/glm-build/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/CMakeFiles/ALL_BUILD.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/CMakeFiles/ZERO_CHECK.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/glm/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/glm/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/bug/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/bug/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/core/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/core/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/gtc/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/gtc/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/gtx/CMakeFiles/RUN_TESTS.dir
+D:/datorgrafik/Eda221/build/glm/src/glm-build/test/gtx/CMakeFiles/INSTALL.dir

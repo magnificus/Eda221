@@ -1,18 +1,8 @@
-﻿Build started 2016-09-09 11:33:58.
-     1>Project "H:\Desktop\Eda221\labbar\build\src\external\external_libs.vcxproj" on node 4 (Build target(s)).
-     1>CustomBuild:
-         Building Custom Rule H:/Desktop/Eda221/labbar/code/src/external/CMakeLists.txt
-         CMake does not need to re-run because H:\Desktop\Eda221\labbar\build\src\external\CMakeFiles\generate.stamp is up-to-date.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IH:\Desktop\Eda221\labbar\build\glfw\include /IH:\Desktop\Eda221\labbar\build\imgui\include /IH:\Desktop\Eda221\labbar\code\src\external /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"external_libs.dir\Debug\\" /Fd"external_libs.dir\Debug\external_libs.pdb" /Gd /TC /analyze- /errorReport:prompt H:\Desktop\Eda221\labbar\code\src\external\glad.c
-         glad.c
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IH:\Desktop\Eda221\labbar\build\glfw\include /IH:\Desktop\Eda221\labbar\build\imgui\include /IH:\Desktop\Eda221\labbar\code\src\external /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"external_libs.dir\Debug\\" /Fd"external_libs.dir\Debug\external_libs.pdb" /Gd /TP /analyze- /errorReport:prompt H:\Desktop\Eda221\labbar\code\src\external\imgui_impl_glfw_gl3.cpp H:\Desktop\Eda221\labbar\code\src\external\lodepng.cpp
-         imgui_impl_glfw_gl3.cpp
-     1>H:\Desktop\Eda221\labbar\code\src\external\imgui_impl_glfw_gl3.cpp(7): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
-         lodepng.cpp
-         Generating Code...
-     1>Done Building Project "H:\Desktop\Eda221\labbar\build\src\external\external_libs.vcxproj" (Build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:03.60
+﻿  Building Custom Rule D:/datorgrafik/Eda221/code/src/external/CMakeLists.txt
+  CMake does not need to re-run because D:\datorgrafik\Eda221\build\src\external\CMakeFiles\generate.stamp is up-to-date.
+  glad.c
+  imgui_impl_glfw_gl3.cpp
+  lodepng.cpp
+D:\datorgrafik\Eda221\code\src\external\lodepng.cpp(3416): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  Generating Code...
+  external_libs.vcxproj -> D:\datorgrafik\Eda221\build\src\external\Debug\external_libs.lib

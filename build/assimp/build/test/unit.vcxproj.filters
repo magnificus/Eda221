@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\CCompilerTest.c">
+      <Filter>unit</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\code\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\AssimpAPITest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utBlendImportAreaLight.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utBlendImportMaterials.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utColladaExportCamera.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utColladaExportLight.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utFastAtof.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utFindDegenerates.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utFindInvalidData.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utFixInfacingNormals.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utGenNormals.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utImporter.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utImproveCacheLocality.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utIOSystem.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utIssues.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utJoinVertices.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utLimitBoneWeights.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utMaterialSystem.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utMatrix3x3.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utMatrix4x4.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utPretransformVertices.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utRemoveComments.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utRemoveComponent.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utRemoveRedundantMaterials.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utScenePreprocessor.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utSharedPPData.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utStringUtils.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utSortByPType.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utSplitLargeMeshes.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utTargetAnimation.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utTextureTransform.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utTriangulate.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\unit\utVertexTriangleAdjacency.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\datorgrafik\Eda221\build\assimp\src\assimp\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7EAA38F2-D424-3EBA-81F4-999CE938D314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit">
+      <UniqueIdentifier>{F3194A6B-9F22-3916-9851-9D34B01F1D25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{133A0403-DA83-3270-A54A-BDDCB22BDD7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

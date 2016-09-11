@@ -1,0 +1,11 @@
+prefix=D:/datorgrafik/Eda221/build/assimp
+exec_prefix=D:/datorgrafik/Eda221/build/assimp/bin
+libdir=D:/datorgrafik/Eda221/build/assimp/lib
+includedir=D:/datorgrafik/Eda221/build/assimp/include/assimp
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 3.3.1
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

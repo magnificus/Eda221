@@ -1,8 +1,8 @@
-# Install script for directory: H:/Desktop/Eda221/labbar/code/src/EDA221_Assignment1
+# Install script for directory: D:/datorgrafik/Eda221/code/src/EDA221_Assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/LU_Computer_Graphics_Labs")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/LU_Computer_Graphics_Labs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

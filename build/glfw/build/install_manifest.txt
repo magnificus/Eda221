@@ -1,0 +1,8 @@
+D:/datorgrafik/Eda221/build/glfw/include/GLFW/glfw3.h
+D:/datorgrafik/Eda221/build/glfw/include/GLFW/glfw3native.h
+D:/datorgrafik/Eda221/build/glfw/lib/cmake/glfw3/glfw3Config.cmake
+D:/datorgrafik/Eda221/build/glfw/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+D:/datorgrafik/Eda221/build/glfw/lib/cmake/glfw3/glfw3Targets.cmake
+D:/datorgrafik/Eda221/build/glfw/lib/cmake/glfw3/glfw3Targets-debug.cmake
+D:/datorgrafik/Eda221/build/glfw/lib/pkgconfig/glfw3.pc
+D:/datorgrafik/Eda221/build/glfw/lib/glfw3.lib

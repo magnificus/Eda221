@@ -1,14 +1,14 @@
 # Target labels
  assimp
 # Source files and their labels
-H:/Desktop/Eda221/labbar/build/CMakeFiles/assimp
-H:/Desktop/Eda221/labbar/code/CMakeLists.txt
-H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/assimp.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/assimp-complete.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-install.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-mkdir.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-download.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-update.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-patch.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-configure.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/a7a0d9a757b76c7898f9bca1fef4f228/assimp-build.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/assimp
+D:/datorgrafik/Eda221/code/CMakeLists.txt
+D:/datorgrafik/Eda221/build/CMakeFiles/62ce18af550d90ad1cabc6f2cfc34418/assimp.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/dc541c034d9109498d42320e340db208/assimp-complete.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-install.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-mkdir.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-download.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-update.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-patch.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-configure.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/68b660e550f51ce8a47b8086dd96d973/assimp-build.rule

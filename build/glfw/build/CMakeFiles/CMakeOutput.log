@@ -1,0 +1,122 @@
+The system is: Windows - 10.0.10586 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2016-09-11 12:20:53.
+Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1caeb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2016-09-11 12:20:53.
+Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\cmTC_1caeb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1caeb.dir\Debug\".
+  Creating directory "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1caeb.dir\Debug\cmTC_1caeb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1caeb.dir\Debug\cmTC_1caeb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1caeb.dir\Debug\\" /Fd"cmTC_1caeb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1caeb.dir\Debug\\" /Fd"cmTC_1caeb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\cmTC_1caeb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp/Debug/cmTC_1caeb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp/Debug/cmTC_1caeb.lib" /MACHINE:X64  /machine:x64 cmTC_1caeb.dir\Debug\testCCompiler.obj
+  cmTC_1caeb.vcxproj -> D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\cmTC_1caeb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1caeb.dir\Debug\cmTC_1caeb.tlog\unsuccessfulbuild".
+  Touching "cmTC_1caeb.dir\Debug\cmTC_1caeb.tlog\cmTC_1caeb.lastbuildstate".
+Done Building Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\cmTC_1caeb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.62
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_13603.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2016-09-11 12:20:54.
+Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\cmTC_13603.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_13603.dir\Debug\".
+  Creating directory "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_13603.dir\Debug\cmTC_13603.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_13603.dir\Debug\cmTC_13603.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13603.dir\Debug\\" /Fd"cmTC_13603.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13603.dir\Debug\\" /Fd"cmTC_13603.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\cmTC_13603.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp/Debug/cmTC_13603.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/datorgrafik/Eda221/build/glfw/build/CMakeFiles/CMakeTmp/Debug/cmTC_13603.lib" /MACHINE:X64  /machine:x64 cmTC_13603.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_13603.vcxproj -> D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\Debug\cmTC_13603.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_13603.dir\Debug\cmTC_13603.tlog\unsuccessfulbuild".
+  Touching "cmTC_13603.dir\Debug\cmTC_13603.tlog\cmTC_13603.lastbuildstate".
+Done Building Project "D:\datorgrafik\Eda221\build\glfw\build\CMakeFiles\CMakeTmp\cmTC_13603.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+

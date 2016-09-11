@@ -1,14 +1,14 @@
 # Target labels
  glfw
 # Source files and their labels
-H:/Desktop/Eda221/labbar/build/CMakeFiles/glfw
-H:/Desktop/Eda221/labbar/code/CMakeLists.txt
-H:/Desktop/Eda221/labbar/build/CMakeFiles/5d154eca058b0eaf938cb3ab5b763d97/glfw.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/809edc876c61ff1f77aff7c5f52c87d2/glfw-complete.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-install.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-mkdir.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-download.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-update.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-patch.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-configure.rule
-H:/Desktop/Eda221/labbar/build/CMakeFiles/b2f39a75802fb2bb87bd37a18b5554af/glfw-build.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/glfw
+D:/datorgrafik/Eda221/code/CMakeLists.txt
+D:/datorgrafik/Eda221/build/CMakeFiles/62ce18af550d90ad1cabc6f2cfc34418/glfw.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/dc541c034d9109498d42320e340db208/glfw-complete.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-install.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-mkdir.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-download.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-update.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-patch.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-configure.rule
+D:/datorgrafik/Eda221/build/CMakeFiles/ffab18ad79ec24855f8875586834a9a3/glfw-build.rule

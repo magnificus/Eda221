@@ -4,21 +4,21 @@ endif()
 
 set(run 0)
 
-if("H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitinfo.txt" IS_NEWER_THAN "H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt")
+if("D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitinfo.txt" IS_NEWER_THAN "D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt")
   set(run 1)
 endif()
 
 if(NOT run)
-  message(STATUS "Avoiding repeated git clone, stamp file is up to date: 'H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt'")
+  message(STATUS "Avoiding repeated git clone, stamp file is up to date: 'D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt'")
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E remove_directory "H:/Desktop/Eda221/labbar/build/imgui/src/imgui"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "D:/datorgrafik/Eda221/build/imgui/src/imgui"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'H:/Desktop/Eda221/labbar/build/imgui/src/imgui'")
+  message(FATAL_ERROR "Failed to remove directory: 'D:/datorgrafik/Eda221/build/imgui/src/imgui'")
 endif()
 
 set(git_options)
@@ -42,8 +42,8 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/ocornut/imgui.git" "imgui"
-    WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/imgui/src"
+    COMMAND "D:/Program Files/Git/cmd/git.exe" ${git_options} clone ${git_clone_options} --origin "origin" "https://github.com/ocornut/imgui.git" "imgui"
+    WORKING_DIRECTORY "D:/datorgrafik/Eda221/build/imgui/src"
     RESULT_VARIABLE error_code
     )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -57,8 +57,8 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} checkout v1.46
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/imgui/src/imgui"
+  COMMAND "D:/Program Files/Git/cmd/git.exe" ${git_options} checkout v1.46
+  WORKING_DIRECTORY "D:/datorgrafik/Eda221/build/imgui/src/imgui"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -66,33 +66,33 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} submodule init 
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/imgui/src/imgui"
+  COMMAND "D:/Program Files/Git/cmd/git.exe" ${git_options} submodule init 
+  WORKING_DIRECTORY "D:/datorgrafik/Eda221/build/imgui/src/imgui"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to init submodules in: 'H:/Desktop/Eda221/labbar/build/imgui/src/imgui'")
+  message(FATAL_ERROR "Failed to init submodules in: 'D:/datorgrafik/Eda221/build/imgui/src/imgui'")
 endif()
 
 execute_process(
-  COMMAND "C:/Users/dat12ppe/AppData/Local/Programs/Git/cmd/git.exe" ${git_options} submodule update --recursive --init 
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/imgui/src/imgui"
+  COMMAND "D:/Program Files/Git/cmd/git.exe" ${git_options} submodule update --recursive --init 
+  WORKING_DIRECTORY "D:/datorgrafik/Eda221/build/imgui/src/imgui"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'H:/Desktop/Eda221/labbar/build/imgui/src/imgui'")
+  message(FATAL_ERROR "Failed to update submodules in: 'D:/datorgrafik/Eda221/build/imgui/src/imgui'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
   COMMAND ${CMAKE_COMMAND} -E copy
-    "H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitinfo.txt"
-    "H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt"
-  WORKING_DIRECTORY "H:/Desktop/Eda221/labbar/build/imgui/src/imgui"
+    "D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitinfo.txt"
+    "D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt"
+  WORKING_DIRECTORY "D:/datorgrafik/Eda221/build/imgui/src/imgui"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'H:/Desktop/Eda221/labbar/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'D:/datorgrafik/Eda221/build/imgui/src/imgui-stamp/imgui-gitclone-lastrun.txt'")
 endif()
 

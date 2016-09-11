@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\datorgrafik\Eda221\build\imgui\build\CMakeFiles\40a74bfa6c8d87b1c939a536b1197af4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DF0FB8E0-F4E2-34E4-9FAD-E3ABC036675F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

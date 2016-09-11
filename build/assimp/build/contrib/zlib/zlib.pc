@@ -1,0 +1,13 @@
+prefix=D:/datorgrafik/Eda221/build/assimp
+exec_prefix=D:/datorgrafik/Eda221/build/assimp
+libdir=
+sharedlibdir=
+includedir=
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

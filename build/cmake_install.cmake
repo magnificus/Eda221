@@ -1,8 +1,8 @@
-# Install script for directory: H:/Desktop/Eda221/labbar/code
+# Install script for directory: D:/datorgrafik/Eda221/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/LU_Computer_Graphics_Labs")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/LU_Computer_Graphics_Labs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Desktop/Eda221/labbar/build/src/external/cmake_install.cmake")
-  include("H:/Desktop/Eda221/labbar/build/src/core/cmake_install.cmake")
-  include("H:/Desktop/Eda221/labbar/build/src/EDA221_Assignment1/cmake_install.cmake")
+  include("D:/datorgrafik/Eda221/build/src/external/cmake_install.cmake")
+  include("D:/datorgrafik/Eda221/build/src/core/cmake_install.cmake")
+  include("D:/datorgrafik/Eda221/build/src/EDA221_Assignment1/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/Desktop/Eda221/labbar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/datorgrafik/Eda221/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Bonobo.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\Bonobo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\InputHandler.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\InputHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Log.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\LogView.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\LogView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Misc.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\Misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\opengl.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\opengl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Types.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\Types.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\various.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\various.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Desktop\Eda221\labbar\code\src\core\Window.cpp">
+    <ClCompile Include="D:\datorgrafik\Eda221\code\src\core\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Desktop\Eda221\labbar\code\src\core\CMakeLists.txt" />
+    <CustomBuild Include="D:\datorgrafik\Eda221\code\src\core\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{067AA2C3-75E7-3C50-AF59-247066879456}</UniqueIdentifier>
+      <UniqueIdentifier>{B847D094-6664-309E-9BA5-0ECE4F13DDF4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,4 @@
+D:/datorgrafik/Eda221/build/imgui/build/CMakeFiles/imgui.dir
+D:/datorgrafik/Eda221/build/imgui/build/CMakeFiles/INSTALL.dir
+D:/datorgrafik/Eda221/build/imgui/build/CMakeFiles/ALL_BUILD.dir
+D:/datorgrafik/Eda221/build/imgui/build/CMakeFiles/ZERO_CHECK.dir
