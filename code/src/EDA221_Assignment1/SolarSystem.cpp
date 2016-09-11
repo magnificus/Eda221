@@ -328,13 +328,20 @@ void SolarSystem::run()
 	auto sun = Node();
 	sun.set_geometry(sphere);
 	sun.set_program(shader);
-	//
-	// Todo: Attach a texture to the sun
-	//
+	sun.add_texture("diffuse_texture", sun_texture);
 
 
 	auto world = Node();
 	world.add_child(&sun);
+
+	auto earth = Node();
+	earth.set_geometry(sphere);
+	earth.set_program(shader);
+	earth.add_texture("diffuse_texture", loadTexture2D("spurdo_face.png"));
+	earth.set_translation(glm::vec3(2,0,0));
+	earth.set_scaling(glm::vec3(0.2, 0.2, 0.2));
+
+	sun.add_child(&earth);
 
 
 	//
@@ -355,6 +362,7 @@ void SolarSystem::run()
 			fpsSamples = 0;
 		}
 		fpsSamples++;
+		//printf("fps: %d ", (1/ddeltatime));
 
 		glfwPollEvents();
 		inputHandler->Advance();
@@ -367,6 +375,7 @@ void SolarSystem::run()
 		// How-To: Translate the sun
 		//
 		sun.set_translation(glm::vec3(std::sin(nowTime), 0.0f, 0.0f));
+		//earth.set_translation(sun.
 
 
 		auto const window_size = window->GetDimensions();

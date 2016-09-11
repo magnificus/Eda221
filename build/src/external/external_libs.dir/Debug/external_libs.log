@@ -1,8 +1,1 @@
-﻿  Building Custom Rule D:/datorgrafik/Eda221/code/src/external/CMakeLists.txt
-  CMake does not need to re-run because D:\datorgrafik\Eda221\build\src\external\CMakeFiles\generate.stamp is up-to-date.
-  glad.c
-  imgui_impl_glfw_gl3.cpp
-  lodepng.cpp
-D:\datorgrafik\Eda221\code\src\external\lodepng.cpp(3416): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-  Generating Code...
-  external_libs.vcxproj -> D:\datorgrafik\Eda221\build\src\external\Debug\external_libs.lib
+﻿  external_libs.vcxproj -> D:\datorgrafik\Eda221\build\src\external\Debug\external_libs.lib
