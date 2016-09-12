@@ -430,63 +430,65 @@ D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(84): warning C
 D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(84): warning C4626: 'sphere_t': assignment operator was implicitly defined as deleted
 D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(124): warning C4820: 'Node': '4' bytes padding added after data member 'Node::_program'
 D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(132): warning C4820: 'Node': '4' bytes padding added after data member 'Node::_translation'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(284): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(369): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'f64'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(457): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(465): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(473): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(492): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'int swprintf_s(wchar_t *const ,const std::size_t,const wchar_t *const ,...)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(283): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(395): warning C4244: 'argument': conversion from 'f64' to 'float', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(398): warning C4244: 'argument': conversion from 'f64' to 'float', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(399): warning C4244: 'argument': conversion from 'f64' to 'float', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(400): warning C4244: 'argument': conversion from 'f64' to 'float', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(401): warning C4244: 'argument': conversion from 'f64' to 'float', possible loss of data
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(478): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(486): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(494): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(513): warning C4365: 'argument': conversion from 'std::size_t' to 'GLsizeiptr', signed/unsigned mismatch
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'int swprintf_s(wchar_t *const ,const std::size_t,const wchar_t *const ,...)': function not inlined
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1528): note: see declaration of 'swprintf_s'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'int _scwprintf(const wchar_t *const ,...)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'int _scwprintf(const wchar_t *const ,...)': function not inlined
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h(1759): note: see declaration of '_scwprintf'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'int printf(const char *const ,...)': function not inlined
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(944): note: see declaration of 'printf'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'int sprintf_s(char *const ,const std::size_t,const char *const ,...)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'int sprintf_s(char *const ,const std::size_t,const char *const ,...)': function not inlined
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1826): note: see declaration of 'sprintf_s'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'int _scprintf(const char *const ,...)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'int _scprintf(const char *const ,...)': function not inlined
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2091): note: see declaration of '_scprintf'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::exception_ptr std::exception_ptr::_Current_exception(void) throw()': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::exception_ptr std::exception_ptr::_Current_exception(void) throw()': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\exception(300): note: see declaration of 'std::exception_ptr::_Current_exception'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::exception_ptr std::current_exception(void) noexcept': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::exception_ptr std::current_exception(void) noexcept': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\exception(359): note: see declaration of 'std::current_exception'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::locale::name(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::locale::name(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale(447): note: see declaration of 'std::locale::name'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::error_code::message(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::error_code::message(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(278): note: see declaration of 'std::error_code::message'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_System_error::_Makestr(std::error_code,std::string)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_System_error::_Makestr(std::error_code,std::string)': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(512): note: see declaration of 'std::_System_error::_Makestr'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_Generic_error_category::message(int) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_Generic_error_category::message(int) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(604): note: see declaration of 'std::_Generic_error_category::message'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_Iostream_error_category::message(int) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_Iostream_error_category::message(int) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(625): note: see declaration of 'std::_Iostream_error_category::message'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_System_error_category::message(int) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_System_error_category::message(int) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\system_error(649): note: see declaration of 'std::_System_error_category::message'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::locale std::ios_base::getloc(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::locale std::ios_base::getloc(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xiosbase(433): note: see declaration of 'std::ios_base::getloc'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_truename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_truename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(250): note: see declaration of 'std::numpunct<wchar_t>::do_truename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_falsename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::do_falsename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(245): note: see declaration of 'std::numpunct<wchar_t>::do_falsename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::numpunct<wchar_t>::do_grouping(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::numpunct<wchar_t>::do_grouping(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(240): note: see declaration of 'std::numpunct<wchar_t>::do_grouping'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_truename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_truename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(250): note: see declaration of 'std::numpunct<char>::do_truename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_falsename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::do_falsename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(245): note: see declaration of 'std::numpunct<char>::do_falsename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::numpunct<char>::do_grouping(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::numpunct<char>::do_grouping(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(240): note: see declaration of 'std::numpunct<char>::do_grouping'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::truename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::truename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(142): note: see declaration of 'std::numpunct<wchar_t>::truename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::falsename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::numpunct<wchar_t>::falsename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(137): note: see declaration of 'std::numpunct<wchar_t>::falsename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::truename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::truename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(142): note: see declaration of 'std::numpunct<char>::truename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::falsename(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::numpunct<char>::falsename(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(137): note: see declaration of 'std::numpunct<char>::falsename'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>>::operator -(__int64) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>>::operator -(__int64) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(641): note: see declaration of 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>>::operator -'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<glm::tmat4x4<float,0>>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
           with
           [
               _Ty=glm::mat4
@@ -496,9 +498,9 @@ D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning 
           [
               _Ty=glm::mat4
           ]
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>>::operator -(__int64) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>>::operator -(__int64) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\deque(641): note: see declaration of 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>>::operator -'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<const Node *>>> std::deque<_Ty,std::allocator<_Ty>>::end(void) noexcept': function not inlined
           with
           [
               _Ty=const Node *
@@ -508,133 +510,133 @@ D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning 
           [
               _Ty=const Node *
           ]
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::numpunct<wchar_t>::grouping(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::numpunct<wchar_t>::grouping(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(132): note: see declaration of 'std::numpunct<wchar_t>::grouping'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::numpunct<char>::grouping(void) const': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::numpunct<char>::grouping(void) const': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum(132): note: see declaration of 'std::numpunct<char>::grouping'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,int>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,int>(const _Ty)': function not inlined
           with
           [
               _Ty=int
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned int>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned int>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned int
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,long>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,long>(const _Ty)': function not inlined
           with
           [
               _Ty=long
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned long>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned long>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned long
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,__int64>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,__int64>(const _Ty)': function not inlined
           with
           [
               _Ty=__int64
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned __int64>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::_Integral_to_string<char,unsigned __int64>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned __int64
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_Floating_to_string<float>(const char *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_Floating_to_string<float>(const char *,_Ty)': function not inlined
           with
           [
               _Ty=float
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_Floating_to_string<double>(const char *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_Floating_to_string<double>(const char *,_Ty)': function not inlined
           with
           [
               _Ty=double
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::string std::_Floating_to_string<long double>(const char *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::string std::_Floating_to_string<long double>(const char *,_Ty)': function not inlined
           with
           [
               _Ty=long double
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(546): note: see declaration of 'std::_Floating_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,int>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,int>(const _Ty)': function not inlined
           with
           [
               _Ty=int
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned int>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned int>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned int
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,long>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,long>(const _Ty)': function not inlined
           with
           [
               _Ty=long
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned long>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned long>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned long
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,__int64>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,__int64>(const _Ty)': function not inlined
           with
           [
               _Ty=__int64
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned __int64>(const _Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> std::_Integral_to_string<wchar_t,unsigned __int64>(const _Ty)': function not inlined
           with
           [
               _Ty=unsigned __int64
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(526): note: see declaration of 'std::_Integral_to_string'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)': function not inlined
           with
           [
               _Ty=float
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::wstring std::_Floating_to_wstring<double>(const wchar_t *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::wstring std::_Floating_to_wstring<double>(const wchar_t *,_Ty)': function not inlined
           with
           [
               _Ty=double
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::wstring std::_Floating_to_wstring<long double>(const wchar_t *,_Ty)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::wstring std::_Floating_to_wstring<long double>(const wchar_t *,_Ty)': function not inlined
           with
           [
               _Ty=long double
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\string(559): note: see declaration of 'std::_Floating_to_wstring'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const _Elem *,const std::basic_string<_Elem,std::char_traits<char>,std::allocator<char>> &)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(const _Elem *,const std::basic_string<_Elem,std::char_traits<char>,std::allocator<char>> &)': function not inlined
           with
           [
               _Elem=char
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2324): note: see declaration of 'std::operator +'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> std::operator +<char,std::char_traits<char>,std::allocator<char>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': function not inlined
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2400): note: see declaration of 'std::operator +'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::unique_ptr<u8 [],std::default_delete<_Ty>> std::make_unique<u8[]>(std::size_t)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::unique_ptr<u8 [],std::default_delete<_Ty>> std::make_unique<u8[]>(std::size_t)': function not inlined
           with
           [
               _Ty=u8 []
           ]
   D:\Program (x86)\Microsoft Visual Studio 14.0\VC\include\memory(1635): note: see declaration of 'std::make_unique'
-D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(501): warning C4710: 'std::unique_ptr<GLuint [],std::default_delete<_Ty>> std::make_unique<GLuint[]>(std::size_t)': function not inlined
+D:\datorgrafik\Eda221\code\src\EDA221_Assignment1\SolarSystem.cpp(522): warning C4710: 'std::unique_ptr<GLuint [],std::default_delete<_Ty>> std::make_unique<GLuint[]>(std::size_t)': function not inlined
           with
           [
               _Ty=GLuint []

@@ -34,9 +34,9 @@
 
 namespace config
 {
-	constexpr float msaa_rate    =    1u;
+	constexpr float msaa_rate = 1u;
 	constexpr float resolution_x = 1600u;
-	constexpr float resolution_y =  900u;
+	constexpr float resolution_y = 900u;
 }
 
 enum class shader_bindings {
@@ -216,17 +216,14 @@ Node::set_scaling(glm::vec3 const& scaling)
 glm::mat4x4
 Node::get_transform() const
 {
-	auto const scaling =  glm::scale(glm::mat4(), _scaling);
+	auto const scaling = glm::scale(glm::mat4(), _scaling);
 	auto const translating = glm::translate(glm::mat4(), _translation);
 	auto const rotation_x = glm::rotate(glm::mat4(), _rotation.x, glm::vec3(1.0, 0.0, 0.0));
 	auto const rotation_y = glm::rotate(glm::mat4(), _rotation.y, glm::vec3(0.0, 1.0, 0.0));
 	auto const rotation_z = glm::rotate(glm::mat4(), _rotation.z, glm::vec3(0.0, 0.0, 1.0));
 	auto const rotating = rotation_z * rotation_y * rotation_x;
 
-	//
-	// Todo: Compute the node's object matrix
-	//
-	return translating;
+	return translating * rotating * scaling;
 }
 
 GLuint
@@ -281,7 +278,7 @@ SolarSystem::SolarSystem()
 	Log::View::Init();
 
 	window = Window::Create("EDA221: Assignment 1", config::resolution_x,
-	                        config::resolution_y, config::msaa_rate, false);
+		config::resolution_y, config::msaa_rate, false);
 	inputHandler = new InputHandler();
 	window->SetInputHandler(inputHandler);
 
@@ -308,8 +305,8 @@ void SolarSystem::run()
 
 	// Set up the camera
 	FPSCameraf mCamera(bonobo::pi / 4.0f,
-	                   static_cast<float>(config::resolution_x) / static_cast<float>(config::resolution_y),
-	                   0.01f, 1000.0f);
+		static_cast<float>(config::resolution_x) / static_cast<float>(config::resolution_y),
+		0.01f, 1000.0f);
 	mCamera.mWorld.SetTranslate(glm::vec3(0.0f, 0.0f, 6.0f));
 	mCamera.mMouseSensitivity = 0.003f;
 	mCamera.mMovementSpeed = 0.25f * 12.0f;
@@ -338,16 +335,33 @@ void SolarSystem::run()
 	earth.set_geometry(sphere);
 	earth.set_program(shader);
 	earth.add_texture("diffuse_texture", loadTexture2D("spurdo_face.png"));
-	earth.set_translation(glm::vec3(2,0,0));
-	earth.set_scaling(glm::vec3(0.2, 0.2, 0.2));
 
-	sun.add_child(&earth);
+	glm::vec3 earthPos = glm::vec3(3, 0, 0);
+	glm::vec3 moonPos = glm::vec3(0, 1, 0);
+	earth.set_scaling(glm::vec3(0.5, 0.5, 0.5));
+	earth.set_translation(earthPos);
+	//	glm::translate()
+
+	auto moon = Node();
+
+	moon.set_geometry(sphere);
+	moon.set_program(shader);
+	moon.add_texture("diffuse_texture", loadTexture2D("noise.png"));
+	moon.set_translation(moonPos);
+	moon.set_scaling(glm::vec3(0.2, 0.2, 0.2));
+	//earth.add_child(&moon);
+
+	auto worldPivot = Node();
+	auto earthPivot = Node();
+	auto moonPivot = Node();
+	moonPivot.set_translation(earthPos);
+	earthPivot.add_child(&earth);
+	earthPivot.add_child(&moonPivot);
+	moonPivot.add_child(&moon);
+	worldPivot.add_child(&earthPivot);
 
 
-	//
-	// Todo: Create an Earth node
-	//
-
+	world.add_child(&worldPivot);
 
 	f64 ddeltatime;
 	size_t fpsSamples = 0;
@@ -374,7 +388,18 @@ void SolarSystem::run()
 		//
 		// How-To: Translate the sun
 		//
-		sun.set_translation(glm::vec3(std::sin(nowTime), 0.0f, 0.0f));
+		//sun.set_translation(glm::vec3(std::sin(nowTime), 0.0f, 0.0f));
+
+		sun.rotate_y(ddeltatime * 1);
+		//sun.rotate_y
+
+		earthPivot.rotate_y(ddeltatime * -0.5);
+		moonPivot.rotate_x(ddeltatime * - 1.5);
+		earth.rotate_y(ddeltatime * 2);
+		moon.rotate_y(ddeltatime * -1);
+		//moon.rotate_x(dd)
+		//printf("%f", sun.get_transform());
+
 		//earth.set_translation(sun.
 
 
@@ -398,10 +423,8 @@ void SolarSystem::run()
 
 			auto const current_node_matrix = current_node->get_transform();
 
-			//
-			// Todo: Compute the current node's world matrix
-			//
-			auto const current_node_world_matrix = current_node_matrix;
+			auto const current_node_world_matrix = parent_matrix * current_node_matrix;
+
 			current_node->render(mCamera.GetWorldToClipMatrix(), current_node_world_matrix);
 
 			for (int i = static_cast<int>(current_node->get_children_nb()) - 1; i >= 0; --i) {
